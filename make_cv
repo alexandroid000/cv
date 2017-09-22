@@ -1,0 +1,1 @@
+pandoc --template=res_template.latex NillesCV.md -o NillesCV.pdf
