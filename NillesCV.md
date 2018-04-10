@@ -26,7 +26,7 @@ ALEXANDRA (ALLI) NILLES
 
 Contact:
 :   nilles2@illinois.edu
-:   [My website](http://alexandroid000.github.io/)
+:   [My website](http://nilles2.web.engr.illinois.edu/)
 
 Status:
 :   PhD Student at UIUC CS Department
@@ -189,27 +189,29 @@ Dates:
 PUBLICATIONS/TALKS/WORKSHOPS
 ==================
 
--   "Periodic Trajectories of Mobile Robots," 2017 IEEE/RSJ
-    International Conference on Intelligent Robots and Systems (IROS).
--   "Minimality and Trade-offs in Automated Robot Design." Organizer for 2017
+-   "Choreographic and Somatic Approaches for the Development of Expressive Robotic
+    Systems". A. LaViers, C. Cuan, C. Maguire, K. Bradley, K. B. Mata, A. Nilles,
+    I. Vidrin, N. Chakraborty, M. Heimerdinger, U. Huzaifa, R. McNish, I. Pakrasi,
+    and A. Zurawski. In *MDPI -- Arts*, 2018.
+-   "Controllable Billiards: Characterizing the Paths of Simple Mobile Robots". A.
+    Q. Nilles, I. Becerra, and S. M. LaValle. In *Dynamics Days*, 2018.
+-   "Periodic Trajectories of Mobile Robots". A. Q. Nilles, I. Becerra, and S. M.
+    LaValle. In *IEEE Conference on Intelligent Robots and Systems (IROS)*, 2017.
+-   "Minimality and Trade-offs in Automated Robot Design." Co-organizer for 2017
     Robotic Science and Systems (RSS) Full-Day workshop. July 16 2017.
     [Website](http://minimality.mit.edu/)
 -   "Interesting Trajectories of Mobile Robots in Polygons," talk given at the
     2017 Midwest Robotics Workshop (MWRW). May 18 2017.
-    [Slides](http://alexandroid000.github.io/media/mwrw_talk.pdf)
 -   "New Developments in Combinatorial Data Structures and Algorithms for
     Robotic Planning, Filtering and Design." UIUC Theory Seminar,
     October 3 2016.
-    [Slides](http://alexandroid000.github.io/media/theory_sem.pdf)
 -   "Case Studies in Robotics Toolchains." Robotics@UIUC internal seminar,
     September 9 2016.
-    [Slides](http://alexandroid000.github.io/media/toolchains.pdf)
 -   "Teaching the Smart Grid: Why Data Management is Essential to the
     Future of Electricity," [WISE Journal of Engineering and
     Public Policy.](http://www.wise-intern.org/journal/2013/documents/NillesFinalpaper.pdf)
 -   “Partially Coherent Transport: Computational Analysis and Overcoming
     Anderson Localization," 2014 CSM Physics poster session.
-    [Poster](http://alexandroid000.github.io/media/NillesPoster.pdf)
 
 HONORS
 ======
@@ -223,6 +225,8 @@ HONORS
 SERVICE
 =======
 
+-   President of Computer Science Graduate Students Organization (fall 2017 -
+    present). Organize social events and advocate for graduate student needs.
 -   Head of student committee organizing an internal Robotics@UIUC seminar (Fall
     2016).
 -   Founding member of Equality Through Awareness (ETA), a group promoting
