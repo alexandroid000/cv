@@ -7,7 +7,7 @@ header-includes:
     -   \setlength{\parindent}{16pt}
     -   \setlength{\emergencystretch}{3em}
     -   \usepackage{titlesec}
-    -   \titlespacing{\section}{0pt}{0pt}{-3pt}
+    -   \titlespacing{\section}{0pt}{0pt}{-1pt}
     -   \titleformat*{\section}{\large\bfseries}
     -   \titlespacing{\subsection}{8pt}{-5pt}{-5pt}
     -   \titleformat*{\subsection}{\bfseries}
@@ -32,7 +32,7 @@ Status:
 :   PhD Student at UIUC CS Department
 :   Advisor: [Steve LaValle](http://msl.cs.uiuc.edu/~lavalle/)
 
-Interests:
+Research Interests:
 :   Developing useful and mathematically sound abstractions for robot design and
 control. Applying new developments in programming languages and formal methods
 to robotics software tools.
@@ -86,21 +86,8 @@ Teaching:
     center. Volunteer tutor at Python, Linux, and high-performance computing
     help sessions in the physics department.
 
-RESEARCH
-========
-
-### Motion strategies for "bouncing" robots
-
-Description:
-:   Imagine a robot that can travel in straight lines until it collides with a
-wall, then turns to a heading relative to the wall normal before setting off
-again. By controlling the "bounce angle," we can design motion strategies that
-maximize "spreading" or "ergodicity" of the robot dynamics. Conversely, we can
-also design strategies that limit the uncertainty in the robot's dynamics as it
-converges to an attractor, for certain classes of environments. Work is ongoing.
-
-Dates:
-:   January 2016 - present
+PREVIOUS POSITIONS
+==================
 
 ### Petronics internship: Development of small, agile mobile robot
 
@@ -116,21 +103,6 @@ different surfaces and learn better controllers.
 Dates:
 :   May 2016 - August 2016
 
-### Rolling robot motion tracking
-
-Description:
-:   Combined an Arduino Pro Micro, LiPo battery, SD card reader/writer, and 9
-    DoF IMU into a stand-alone unit that is very small (approximately 4x2cm) and
-    logs data at about 500 Hz. Wrote [introductory
-    guide](https://github.com/alexandroid000/imu) to the design and construction of
-    the unit.
-:   Took gyro data from sensor fixed to the inside surface of a rolling robot
-    and integrated, combined with physical constraints to reconstruct the path
-    of the robot through the room.
-
-Dates:
-:   August 2015 - Jan 2016
-
 ### UC Davis REU: Implementing Predicted Information Gain Algorithms
 
 Description:
@@ -141,20 +113,6 @@ Description:
 
 Dates:
 :   June - Aug 2014
-
-### Senior Design: Computational Modelling of Coherent Transport
-
-Description:
-:   Researched and modeled the influence of molecular structure on exciton
-    dynamics. Identified structural properties which extend coherent lifetimes
-    in multi-site transport; documented research and passed on to a new senior
-    design student. Worked with Dr. Mark Lusk in the Physics department at CSM.
-
-Dates:
-:   April 2013 - May 2014
-
-EMPLOYMENT
-==========
 
 ### Colorado School of Mines Math Learning Center
 
@@ -186,7 +144,37 @@ Description:
 Dates:
 :   June - Aug 2013
 
-PUBLICATIONS/TALKS/WORKSHOPS
+PROFESSIONAL ACTIVITIES
+=======================
+
+-   "Minimality and Trade-offs in Automated Robot Design." Co-organizer for 2017
+    Robotic Science and Systems (RSS) Full-Day workshop. July 16 2017.
+    [Website](http://minimality.mit.edu/)
+-   President of Computer Science Graduate Students Organization (fall 2017 -
+    present). Organize social events and advocate for graduate student needs.
+-   Head of student committee organizing an internal Robotics@UIUC seminar (Fall
+    2016).
+    
+
+AWARDS AND HONORS
+======
+
+-   Saburo Muroga Endowed Fellowship, UIUC CS Department. \hfill 2015-2016
+-   Physics Faculty Distinguished Graduate Award, CSM. \hfill May 2015
+-   Leo Borasio Outstanding Junior Award, McBride Honors Program, CSM. \hfill May 2014
+-   President’s Undergraduate Scholarship, CSM. \hfill 2011-2015
+-   ECC Women’s Leadership Group Scholarship. \hfill 2011
+
+OUTREACH AND DIVERSITY SERVICE
+=======
+
+-   Founding member of Equality Through Awareness (ETA), a group promoting
+    diversity in STEM through discussion, mentoring, and invited speakers.
+-   Society of Physics Students - participated in outreach events such as
+    travelling to local elementary/middle schools to do science demos and
+    promote interest in physics
+
+PUBLICATIONS AND TALKS
 ==================
 
 -   "Choreographic and Somatic Approaches for the Development of Expressive Robotic
@@ -197,9 +185,6 @@ PUBLICATIONS/TALKS/WORKSHOPS
     Q. Nilles, I. Becerra, and S. M. LaValle. In *Dynamics Days*, 2018.
 -   "Periodic Trajectories of Mobile Robots". A. Q. Nilles, I. Becerra, and S. M.
     LaValle. In *IEEE Conference on Intelligent Robots and Systems (IROS)*, 2017.
--   "Minimality and Trade-offs in Automated Robot Design." Co-organizer for 2017
-    Robotic Science and Systems (RSS) Full-Day workshop. July 16 2017.
-    [Website](http://minimality.mit.edu/)
 -   "Interesting Trajectories of Mobile Robots in Polygons," talk given at the
     2017 Midwest Robotics Workshop (MWRW). May 18 2017.
 -   "New Developments in Combinatorial Data Structures and Algorithms for
@@ -212,25 +197,3 @@ PUBLICATIONS/TALKS/WORKSHOPS
     Public Policy.](http://www.wise-intern.org/journal/2013/documents/NillesFinalpaper.pdf)
 -   “Partially Coherent Transport: Computational Analysis and Overcoming
     Anderson Localization," 2014 CSM Physics poster session.
-
-HONORS
-======
-
--   Saburo Muroga Endowed Fellowship, UIUC CS Department. \hfill 2015-2016
--   Physics Faculty Distinguished Graduate Award, CSM. \hfill May 2015
--   Leo Borasio Outstanding Junior Award, McBride Honors Program, CSM. \hfill May 2014
--   President’s Undergraduate Scholarship, CSM. \hfill 2011-2015
--   ECC Women’s Leadership Group Scholarship. \hfill 2011
-
-SERVICE
-=======
-
--   President of Computer Science Graduate Students Organization (fall 2017 -
-    present). Organize social events and advocate for graduate student needs.
--   Head of student committee organizing an internal Robotics@UIUC seminar (Fall
-    2016).
--   Founding member of Equality Through Awareness (ETA), a group promoting
-    diversity in STEM through discussion, mentoring, and invited speakers.
--   Society of Physics Students - participated in outreach events such as
-    travelling to local elementary/middle schools to do science demos and
-    promote interest in physics
