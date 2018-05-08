@@ -29,13 +29,15 @@ Contact:
 :   [My website](http://nilles2.web.engr.illinois.edu/)
 
 Status:
-:   PhD Student at UIUC CS Department
+:   PhD Candidate
+:   Computer Science Department, University of Illinois at Urbana-Champaign
 :   Advisor: [Steve LaValle](http://msl.cs.uiuc.edu/~lavalle/)
 
 Research Interests:
 :   Developing useful and mathematically sound abstractions for robot design and
-control. Applying new developments in programming languages and formal methods
-to robotics software tools.
+    control. Applying these abstractions, and new developments in programming
+    languages and formal methods, to robotics software tools.
+
 
 EDUCATION
 =========
@@ -68,18 +70,18 @@ SKILLS
 
 Programming:
 :   Skilled in Haskell, Python, C++, embedded programming (mBed, Arduino),
-    MatLab, Mathematica, parallel computing (OpenMPI, OpenMP), shell scripting.
+    MatLab, Mathematica, parallel computing, shell scripting.
     Comfortable learning new languages.
 
 Experimental:
 :   Comfortable with electronics prototype design and construction. Familiar
-with electronics lab equipment (oscilloscopes, multimeters, soldering, etc),
-safety, and troubleshooting techniques.
+    with electronics lab equipment (oscilloscopes, multimeters, soldering, etc),
+    safety, and troubleshooting techniques. Experienced with collection and
+    analysis of video and motion-capture data.
 
 Computing:
 :   Experience in Linux (several distributions, comfortable with the command
-line), \LaTeX, Git, Pandoc, and high performance computing clusters (with Slurm
-and PBS scheduling software)
+    line), \LaTeX, Git, Pandoc, and high performance computing clusters.
 
 Teaching:
 :   Paid tutor at Colorado School of Mines math learning
@@ -103,7 +105,7 @@ different surfaces and learn better controllers.
 Dates:
 :   May 2016 - August 2016
 
-### UC Davis REU: Implementing Predicted Information Gain Algorithms
+### Complexity Sciences Center, UC Davis: Implementing Predicted Information Gain Algorithms
 
 Description:
 :   While working in Dr. Jim Crutchfield's group, I successfully implemented an
@@ -147,13 +149,21 @@ Dates:
 PROFESSIONAL ACTIVITIES
 =======================
 
--   "Minimality and Trade-offs in Automated Robot Design." Co-organizer for 2017
-    Robotic Science and Systems (RSS) Full-Day workshop. July 16 2017.
+-   Co-organizer for 2017 Robotic Science and Systems (RSS) full day workshop,
+    "Minimality and Trade-offs in Automated Robot Design." July 16 2017.
     [Website](http://minimality.mit.edu/)
+    - Recruited and communicated with speakers, helped develop materials (The
+      Robot Design Game, \url{http://robot-design.org/}, facilitated workshop
+      and discussions)
 -   President of Computer Science Graduate Students Organization (fall 2017 -
-    present). Organize social events and advocate for graduate student needs.
+    present).
+    - Organize social events, communicate with department administration 
+    about graduate student needs, assist in organizing annual prospective PhD
+    student visit weekend.
 -   Head of student committee organizing an internal Robotics@UIUC seminar (Fall
     2016).
+    - Recruited student speakers, advertised talks, maintained wiki with schedule
+      and speaker slides.
     
 
 AWARDS AND HONORS
@@ -168,32 +178,48 @@ AWARDS AND HONORS
 OUTREACH AND DIVERSITY SERVICE
 =======
 
--   Founding member of Equality Through Awareness (ETA), a group promoting
+-   Founding member of Equality Through Awareness (ETA) at CSM, a group promoting
     diversity in STEM through discussion, mentoring, and invited speakers.
+    - personally facilitated weekly group discussions on articles and topics
+      relevant to underrepresented minorities
+    - ETA has since won the Martin Luther King Jr. Recognition Award from CSM
 -   Society of Physics Students - participated in outreach events such as
     travelling to local elementary/middle schools to do science demos and
     promote interest in physics
 
-PUBLICATIONS AND TALKS
-==================
+PUBLICATIONS AND POSTERS
+============
 
--   "Choreographic and Somatic Approaches for the Development of Expressive Robotic
-    Systems". A. LaViers, C. Cuan, C. Maguire, K. Bradley, K. B. Mata, A. Nilles,
-    I. Vidrin, N. Chakraborty, M. Heimerdinger, U. Huzaifa, R. McNish, I. Pakrasi,
-    and A. Zurawski. In *MDPI -- Arts*, 2018.
--   "Controllable Billiards: Characterizing the Paths of Simple Mobile Robots". A.
-    Q. Nilles, I. Becerra, and S. M. LaValle. In *Dynamics Days*, 2018.
--   "Periodic Trajectories of Mobile Robots". A. Q. Nilles, I. Becerra, and S. M.
-    LaValle. In *IEEE Conference on Intelligent Robots and Systems (IROS)*, 2017.
--   "Interesting Trajectories of Mobile Robots in Polygons," talk given at the
-    2017 Midwest Robotics Workshop (MWRW). May 18 2017.
--   "New Developments in Combinatorial Data Structures and Algorithms for
-    Robotic Planning, Filtering and Design." UIUC Theory Seminar,
+-   A. Q. Nilles, D. A. Shell, J. M. O'Kane. "Robot Design: Formalisms,
+    Representations, and the Role of the Designer," in *Workshop on the
+    Autonomous Design of Robots* at ICRA 2018.
+-   A. Q. Nilles, C. Gladish, M. Beckman, and A. LaViers. "Improv: Live Coding
+    for Robot Motion Design," in *Proceedings of the 5th International
+    Conference on Movement Computing*, ACM. 2018.
+-   A. LaViers, C. Cuan, C. Maguire, K. Bradley, K. B. Mata, A. Nilles, I.
+    Vidrin, N. Chakraborty, M. Heimerdinger, U. Huzaifa, R. McNish, I. Pakrasi,
+    and A. Zurawski. "Choreographic and Somatic Approaches for the Development
+    of Expressive Robotic Systems," in *MDPI -- Arts*, 2018.
+-   A. Q. Nilles, I. Becerra, and S. M. LaValle. "Controllable Billiards: Characterizing the Paths of Simple Mobile Robots,"
+    poster in *Dynamics Days*, 2018.
+-   A. Q. Nilles, I. Becerra, and S. M. LaValle. "Periodic Trajectories of
+    Mobile Robots," in *IEEE Conference on Intelligent Robots and Systems
+    (IROS)*, 2017.
+-   A. Q. Nilles, "Teaching the Smart Grid: Why Data Management is Essential to
+    the Future of Electricity," [WISE Journal of Engineering and Public
+    Policy.](http://www.wise-intern.org/journal/2013/documents/NillesFinalpaper.pdf)
+-   A. Q. Nilles, “Partially Coherent Transport: Computational Analysis and
+    Overcoming Anderson Localization," 2014 CSM Physics poster session.
+
+TALKS
+=====
+
+
+-   "Interesting Trajectories of Mobile Robots in Polygons," 2017 Midwest
+    Robotics Workshop (MWRW). May 18 2017.
+-   "New Developments in Combinatorial Data Structures and
+    Algorithms for Robotic Planning, Filtering and Design," UIUC Theory Seminar,
     October 3 2016.
--   "Case Studies in Robotics Toolchains." Robotics@UIUC internal seminar,
+-   "Case Studies in Robotics Toolchains," UIUC Robotics Seminar,
     September 9 2016.
--   "Teaching the Smart Grid: Why Data Management is Essential to the
-    Future of Electricity," [WISE Journal of Engineering and
-    Public Policy.](http://www.wise-intern.org/journal/2013/documents/NillesFinalpaper.pdf)
--   “Partially Coherent Transport: Computational Analysis and Overcoming
-    Anderson Localization," 2014 CSM Physics poster session.
+

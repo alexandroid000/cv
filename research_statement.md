@@ -3,7 +3,7 @@ bibliography: /home/alli/common/refs.bib
 geometry: margin=2cm
 ---
 
-As a young robotics researcher, it still amazes me to realize the changes that
+As a young robotics researcher, it amazes me to realize the changes that
 have swept the field in recent history - the increasing capabilities of hardware manufacturing,
 computational systems, and new sensors are transforming robots from academic
 curiousities and constrained factory tools to a real technology which will
@@ -28,18 +28,9 @@ more accessible.
 
 Towards these goals, I have several ongoing research projects.
 
-**Bouncing Robots**
+**Bouncing Robots** - describe briefly
 
-An 
-
-**Aggregation**
-
-**Improv**
-
-On the modelling side, I am looking at geometric and discrete dynamical systems
-models for high-level control of mobile robots. I have submitted a paper to
-IROS, and will be presenting at the Midwest Robotics Workshop, on a project
-where we are analyzing the dynamics of a robot which can move in straight lines
+we are analyzing the dynamics of a robot which can move in straight lines
 and rotate itself to align relative to the normal vector at an environment
 boundary. By finding limit cycles and other stable dynamics, we can use very
 simple control laws which cause the robot to "patrol" the space and aid in
@@ -48,21 +39,27 @@ after a certain number of collisions with the boundary). By finding chaotic or
 unstable regions of the robot's dynamics, we can make "exploratory" algorithms
 and make guarantees about how well the robot will cover the space.
 
-I am also developing a project, in collaboration with Amy LaViers of the
-Mechanical Engineering department, which is a high-level programming language
-for describing and controlling robot motion. This tool aims to be an easy-to-use
-interface for ROS (Robot Operating System), the prevailing control architecture
-in robotics. I am focusing on principled design of motion composition operators
-and motion transformations, taking guidance from the movement analysis and
-dance communities.
+describe combinatorial / I-space approach, generalization of multiple lines of
+research
 
-In the future, I am planning to incorporate formal methods techniques such as
-bounded model checking and SMT solvers to more quickly explore the "space" of
-mobile robot designs. I also would like to use formal methods in my programming
-languages projects, to synthesize physically realizable robots and control
-algorithms from high-level specifications given in the language I am developing.
-To this end, I am helping organize an RSS workshop this summer titled
-"Minimality and Trade-offs in Automated Robot Design" with Jason O'Kane, Hadas
-Kress-Gazit, and Andrea Censi.
+**Self Assembly / Directed Aggregation** - describe briefly, w/ info spaces focus
+
+**Improv**
+
+I am also developing a project, in collaboration with Drs. Amy LaViers and
+Mattox Beckman, which is a high-level programming language for describing and
+controlling robot motion. This tool aims to be an easy-to-use interface for ROS
+(Robot Operating System), the prevailing control architecture in robotics. I am
+focusing on principled design of motion composition operators and motion
+transformations, taking guidance from the movement analysis and dance
+communities.
+
+Chase - senior design
+
+describe upcoming user study
 
 **Future Work**
+
+Robot design space
+
+Mentoring undergraduates
