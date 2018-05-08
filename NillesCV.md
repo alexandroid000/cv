@@ -13,7 +13,7 @@ header-includes:
     -   \titleformat*{\subsection}{\bfseries}
     -   \titlespacing{\subsubsection}{8pt}{-5pt}{-3pt}
     -   \titleformat*{\subsubsection}{\bfseries}
-
+    -   \usepackage{jeffe}
     -   \usepackage{enumitem}
     -   \setlist[description]{font=\normalfont,style=multiline,leftmargin=3cm,
                     labelindent=\parindent}
@@ -138,10 +138,10 @@ Dates:
 ### Institute of Electrical and Electronics Engineers (IEEE)
 
 Description:
-:   Researched smart grid data management and policy alternatives; published an
+:   Washington Internships for Students of
+    Engineering (WISE) program: researched smart grid data management and policy alternatives; published an
     overview and policy recommendation in the *WISE Journal of Engineering and
-    Public Policy*. Was part of the Washington Internships for Students of
-    Engineering (WISE) program.
+    Public Policy*. 
 
 Dates:
 :   June - Aug 2013
@@ -153,8 +153,8 @@ PROFESSIONAL ACTIVITIES
     "Minimality and Trade-offs in Automated Robot Design." July 16 2017.
     [Website](http://minimality.mit.edu/)
     - Recruited and communicated with speakers, helped develop materials (The
-      Robot Design Game, \url{http://robot-design.org/}, facilitated workshop
-      and discussions)
+      Robot Design Game, \url{http://robot-design.org/}), facilitated workshop
+      and discussions.
 -   President of Computer Science Graduate Students Organization (fall 2017 -
     present).
     - Organize social events, communicate with department administration 
