@@ -5,126 +5,90 @@ fontsize: 11pt
 header-includes:
     -   \setlength{\parindent}{16pt}
     -   \setlength{\parskip}{0pt}
+    -   \usepackage{fancyhdr}
+    -   \pagestyle{fancy}
+    -   \lhead{Alexandra Nilles}
+    -   \rhead{Research Statement}
+    -   \renewcommand{\headrulewidth}{0.4pt}
 ---
 
+\pagenumbering{gobble}
+
 My primary research goal is to improve the state-of-the-art abstractions and
-tools for modelling, programming and making guarantees about the behavior of
-robotic systems. Specifically, I approach this broad goal through the lens of
-*minimality* - by exploring what tasks can be completed by robots with very
-limited sensing, actuation, and computational capabilities, we gain a better
+tools for modelling, programming and guaranteeing the behavior of
+robotic systems. To approach this broad goal, I focus on 
+*minimality:* what tasks can be completed by robots with 
+limited sensing, actuation, and computational capabilities? By exploring the 
+"lower bounds" of robot power, we can gain a better
 understanding of the fundamental informational requirements of robot tasks. We
 are also forced to more carefully define what robotic *tasks* are, and how they
-can be defined in a platform-invariant way. I am also very interested how these
-questions relate to the robot design process itself - with better abstractions,
-we can enable human designers to think about and express robot designs at a
-higher level, enhancing human creative capacity and making these technologies
-more accessible. I have several ongoing research projects toward these goals.
+can be defined in a platform-invariant way. I am also interested how these
+questions relate to the robot design process itself: better abstractions
+can enhance human creative capacity and make the design process easier. 
+I have several ongoing research projects toward these goals.
 
-\noindent
-\textbf{Bouncing robots: understanding mobile robots with simple boundary
-interactions}
-
-One project, with my advisor Dr. Steve LaValle, continues a line of work on the
-information requirements of mobile robot tasks, such as navigation,
-localization, and coverage. In particular, my line of work examines "bouncing robots":
-robots which move forward in straight lines until colliding with an environment
-boundary, at which point they can rotate in place and move forward again. We
-also consider nondeterministic error in the rotation, since robots rarely turn
-perfectly or move perfectly straight. We have determined that under constant control (the same "bounce
-angle" at every collision), stable limit cycles exist in all convex polygons.
-Additionally, given a convex polygon or sequence of visible edges in a
-nonconvex polygon, we are able to synthesize the range of control angles which result in such stable behavior, or determine that such a
-cycle is not possible.
-
-The upside is that we can get guarantees on how precise the robot control and
-actuation needs to be in order to get certain classes of dynamical behavior
-(such as patrolling a polygonal environment on a repeatable path).
-
-I have presented results from this work at the 2017 Midwest Robotics Workshop,
-IROS 2017, and the 2018 Dynamics Days conference. We are now using these results as building blocks to perform more complex tasks
-such as navigation and coverage in more general environments (nonconvex
-polygonal environments, and environments with obstacles). We are developing
-visibility-based information space representations of the environment which can be used to
-determine if a certain type of mobile robot (with a specific sensor and actuator
+**Robust nondeterministic mobile robots through simple boundary
+interactions:** With my advisor Dr. Steve LaValle, I am 
+examining "bouncing robots": robots which move forward in straight lines until
+colliding with an environment boundary, at which point they can rotate in place
+and move forward again. We also consider nondeterministic error in the rotation,
+since robots rarely turn perfectly or move perfectly straight. We have developed
+an algorithm for synthesizing simple controllers which (using only local
+measurements and state) cause the path of the robot to converge to a stable
+limit cycle on a specified sequence of edges in polygonal environments (or determine
+that no such controller exists). Our results provide guarantees on how precise the
+robot control and actuation needs to be in order to cause the robot to "patrol"
+a space on a repeatable path. I have presented results from this work at the 2017 Midwest
+Robotics Workshop, IROS 2017, and the 2018 Dynamics Days conference. We are now
+using these results as building blocks for more complex tasks,
+such as navigation, localization and coverage, and formalizing task
+specifications. We are working toward being 
+able to determine if a given mobile robot (with a specific sensor and actuator
 configuration) is capable of completing a given task in a given environment.
+Such results can help inform automated robot design and verification tools.
 
-\noindent
-\textbf{Nondeterministic self-assembly and active materials}
+**Robust nondeterministic self-assembly through simple robot-robot
+interactions:** From my physics background, I have a strong interest in materials 
+which achieve useful global structure or dynamics with minimal
+information processing per "agent," through local structures and coarse global
+controls. Along this line, I am mentoring a team of
+undergraduates researching minimal sensing and actuation strategies
+for collective directed rotation, translation, and eventually collective
+manipulation. We use weaselballs (off-the-shelf motorized balls) as
+"particles," and modify them with add-on assemblies that can alter their dynamics
+(through weight and friction), house simple sensors, and allow the robots to attach and
+detach from each other. Results on assembly dynamics have been presented by
+the team of undergraduates at the 2018 UIUC Undergraduate Engineering Research
+Fair, and we are working toward synthesis of local rules for collective manipulation 
+of robot assemblies and objects.
 
-From my physics background, I have a strong interest in "active materials," or "programmable
-matter," as well as in directed self-assembly: materials which, through local
-structure and interactions as well as coarse global control (such as applied
-external fields), naturally achieve some desired global structure and/or
-dynamics. Minimal robotics is an
-interesting lens with which to approach this application: we share many of the
-same modelling challenges, such as nondeterministic dynamics and sensing, and an
-emphasis on local and limited agent-to-agent interactions.
+**A high-level compositional movement design tool:** I am also developing a
+project called \emph{Improv}, in collaboration with Dr. Amy LaViers (UIUC
+MechSE), Dr. Mattox Beckman (UIUC CS), and undergraduate Chase Gladish, which is a high-level
+programming language for describing and controlling robot motion. This tool aims
+to be an easy-to-use interface for ROS (Robot Operating System), the prevailing
+control architecture in robotics. While ROS is a powerful open-source toolset 
+and is immeasurably valuable to the community, the user interface can be quite inefficient
+(and intimidating for newcomers to programming and robotics). *Improv* helps fill this gap by taking guidance 
+from the movement analysis and dance communities on how to create more
+principled languages of movement based on composition and transformation, enabling 
+rapid prototyping of robot motion patterns. 
+I will be presenting this work at the 2018 ACM International Conference on
+Movement Computing. My next step for this project is to run a user study to test
+\emph{Improv}'s usability compared to other ROS client libraries.
 
-Most of this work is on the nano and micro scale, but I am interested
-in finding macro-scale testbeds which simulate relevant dynamics at the small
-scale, which would allow researchers to focus on the high-level control and
-computational facets of this line of work, which is often hindered by difficulty
-of fabrication and observation of such systems. 
-
-To this end, I am mentoring a team of undergraduates on a project to
-use weaselballs (off-the-shelf motorized balls) as our base 
-"particle." We modify the balls by placing them in assemblies that can modify 
-their dynamics (through weight and friction) as well as allow for the robots to
-attach and detach from each other and house simple sensors. We are collecting
-data on the dynamics of the free balls (and collaborating with Dr. Yuliy
-Baryshnikov to analyze higher-order braid invariants of their trajectories), as
-well as the dynamics of different assembly geometries. We are incorporating an
-information space representation and distributed computation analysis to
-determine minimal sensing and actuation strategies for different global
-behaviors, such as collective directed rotation and translation. Results have
-been presented by the team of undergraduates at the 2018 UIUC Undergraduate
-Engineering Research Fair. In general, I find mentoring and management of
-students very rewarding, both personally and because of their contributions to
-research. Building relationships with students is one of the aspects of an academic career
-that I look forward to the most.
-
-\noindent
-\textbf{Improv, a high-level compositional movement design tool}
-
-I am also developing a project called \emph{Improv}, in collaboration with Drs. Amy LaViers
-(UIUC Mechanical Science and Engineering Department) and
-Mattox Beckman (UIUC Computer Science Department, programming languages focus), 
-which is a high-level programming language for describing and
-controlling robot motion. This tool aims to be an easy-to-use interface for ROS
-(Robot Operating System), the prevailing control architecture in robotics. I am
-focusing on principled design of motion composition operators and motion
-transformations, taking guidance from the movement analysis and dance
-communities. I will be presenting this work at the 2018 ACM International
-Conference on Movement Computing. The next steps for this project are to run a
-user study which I have designed to test \emph{Improv}'s
-usability compared to traditional ROS client libraries, and I hope to
-disseminate the results at a major robotics conference. While ROS is a very
-powerful system, and having a free and open source set of libraries immeasurably
-valuable to the community, the user interface leaves something to be desired,
-especially for newcomers to programming and robotics. \emph{Improv} aims to fill
-this gap.
-
-Chase - senior design
-
-**Future Work**
-
-Robot design space
-
-Mentoring undergraduates
-
-While different on the surface, all my projects share common motivating
-principles and applications: obtaining robust behavior and guarantees on task
-satisfiability from simple, local sensing and actuation. My work emphasizes
+**Future work:** While different on the surface, all my projects share common
+principles and applications: obtaining robust behavior and guarantees on robot
+task satisfiability from minimal, local sensing and actuation, and translating
+these results to robotic software tools. My work emphasizes
 physically-motivated theoretical models, integrated as much as possible with
-hardware and simulated experiments. Along with strong theory and experiments, I
-strongly believe we need to be principled with our development of our software
-tools - both to enable better, more accurate experimentation, but also to make
-the field accessible to as many different people as possible.
+hardware and simulated experiments. All of my projects have been
+collaborative, with a strong emphasis on enabling undergraduate research. I find 
+mentoring students rewarding, and one of the aspects of an academic 
+career that I look forward to the most - as well as contributing to the
+development and formalization of the multi-faceted field of robotics.
 
-Extra
------
-
-
+<!--
 Robotics is a
 unique field in that it asks fundamental questions about the universe and
 affects mundane details of people's everyday lives.
@@ -152,3 +116,4 @@ We also are working to understand the relative power
 of different mobile robot models - for instance, can a mobile robot with an
 angular odometer and a contact sensor perform all the same tasks as a robot with
 a compass and contact sensor? 
+-->
