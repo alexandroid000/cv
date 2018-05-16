@@ -17,12 +17,14 @@ header-includes:
     -   \usepackage{enumitem}
     -   \setlist[description]{font=\normalfont,style=multiline,leftmargin=3cm,
                     labelindent=\parindent}
+    -   \usepackage{fancyhdr}
+    -   \pagestyle{fancy}
+    -   \lhead{Alexandra (Alli) Nilles}
+    -   \rhead{\emph{Curriculum Vitae}}
+    -   \renewcommand{\headrulewidth}{0.4pt}
 ...
 
 \pagenumbering{gobble}
-
-ALEXANDRA (ALLI) NILLES
-=======================
 
 Contact:
 :   nilles2@illinois.edu
@@ -160,6 +162,7 @@ PROFESSIONAL ACTIVITIES
     - Organize social events, communicate with department administration 
     about graduate student needs, assist in organizing annual prospective PhD
     student visit weekend.
+-   Reviewer for IROS '17, '18, ICRA '18, EAAI '17
 -   Head of student committee organizing an internal Robotics@UIUC seminar (Fall
     2016).
     - Recruited student speakers, advertised talks, maintained wiki with schedule
