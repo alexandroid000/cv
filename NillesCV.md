@@ -3,25 +3,26 @@ geometry: margin=2.0cm
 fontsize: 10pt
 template: res_template.latex
 header-includes:
-    -   \hypersetup{ colorlinks=true, linkcolor=cyan }
-    -   \setlength{\parindent}{16pt}
-    -   \setlength{\emergencystretch}{3em}
-    -   \usepackage{titlesec}
-    -   \titlespacing{\section}{0pt}{0pt}{-1pt}
-    -   \titleformat*{\section}{\large\bfseries}
-    -   \titlespacing{\subsection}{8pt}{-5pt}{-5pt}
-    -   \titleformat*{\subsection}{\bfseries}
-    -   \titlespacing{\subsubsection}{8pt}{-5pt}{-3pt}
-    -   \titleformat*{\subsubsection}{\bfseries}
-    -   \usepackage{jeffe}
-    -   \usepackage{enumitem}
-    -   \setlist[description]{font=\normalfont,style=multiline,leftmargin=3cm,
-                    labelindent=\parindent}
-    -   \usepackage{fancyhdr}
-    -   \pagestyle{fancy}
-    -   \lhead{Alexandra (Alli) Nilles}
-    -   \rhead{\emph{Curriculum Vitae}}
-    -   \renewcommand{\headrulewidth}{0.4pt}
+- |
+  ```{=latex}
+  \hypersetup{ colorlinks=true, linkcolor=cyan }
+  \setlength{\parindent}{16pt}
+  \setlength{\emergencystretch}{3em}
+  \usepackage{titlesec}
+  \titlespacing{\section}{0pt}{0pt}{-1pt}
+  \titleformat*{\section}{\large\bfseries}
+  \titlespacing{\subsection}{8pt}{-5pt}{-5pt}
+  \titleformat*{\subsection}{\bfseries}
+  \titlespacing{\subsubsection}{8pt}{-5pt}{-3pt}
+  \titleformat*{\subsubsection}{\bfseries}
+  \usepackage{enumitem}
+  \setlist[description]{font=\normalfont,style=multiline,leftmargin=3cm, labelindent=\parindent}
+  \usepackage{fancyhdr}
+  \pagestyle{fancy}
+  \lhead{Alexandra (Alli) Nilles}
+  \rhead{\emph{Curriculum Vitae}}
+  \renewcommand{\headrulewidth}{0.4pt}
+  ```
 ...
 
 \pagenumbering{gobble}
@@ -164,7 +165,7 @@ PROFESSIONAL ACTIVITIES
     student visit weekend.
 -   Reviewer for IROS '17, '18, ICRA '18, EAAI '17
 -   Head of student committee organizing an internal Robotics@UIUC seminar (Fall
-    2016).
+    2016 semester).
     - Recruited student speakers, advertised talks, maintained wiki with schedule
       and speaker slides.
     
@@ -172,6 +173,9 @@ PROFESSIONAL ACTIVITIES
 AWARDS AND HONORS
 ======
 
+-   Leung Student Venture Fund Award ($1000 to support undergraduate researchers
+    in the Motion Strategy Lab), UIUC ECE Department. I supervised these undergraduates and wrote majority of
+    the grant application. 2019
 -   Saburo Muroga Endowed Fellowship, UIUC CS Department. \hfill 2015-2016
 -   Physics Faculty Distinguished Graduate Award, CSM. \hfill May 2015
 -   Leo Borasio Outstanding Junior Award, McBride Honors Program, CSM. \hfill May 2014
@@ -190,9 +194,12 @@ OUTREACH AND DIVERSITY SERVICE
     travelling to local elementary/middle schools to do science demos and
     promote interest in physics
 
-PUBLICATIONS AND POSTERS
+PUBLICATIONS
 ============
 
+-   A. Q. Nilles, Y. Ren, I. Becerra, S. M. LaValle. **A Visibility-Based
+    Approach to Computing Nondeterministic Bouncing Strategies**. In the *13th
+    Annual Workshop on the Algorithmic Foundations of Robotics*,  2018.
 -   A. Q. Nilles, D. A. Shell, J. M. O'Kane. "Robot Design: Formalisms,
     Representations, and the Role of the Designer," in *Workshop on the
     Autonomous Design of Robots* at ICRA 2018.
@@ -203,20 +210,15 @@ PUBLICATIONS AND POSTERS
     Vidrin, N. Chakraborty, M. Heimerdinger, U. Huzaifa, R. McNish, I. Pakrasi,
     and A. Zurawski. "Choreographic and Somatic Approaches for the Development
     of Expressive Robotic Systems," in *MDPI -- Arts*, 2018.
--   A. Q. Nilles, I. Becerra, and S. M. LaValle. "Controllable Billiards: Characterizing the Paths of Simple Mobile Robots,"
-    poster in *Dynamics Days*, 2018.
 -   A. Q. Nilles, I. Becerra, and S. M. LaValle. "Periodic Trajectories of
     Mobile Robots," in *IEEE Conference on Intelligent Robots and Systems
     (IROS)*, 2017.
 -   A. Q. Nilles, "Teaching the Smart Grid: Why Data Management is Essential to
     the Future of Electricity," [WISE Journal of Engineering and Public
     Policy.](http://www.wise-intern.org/journal/2013/documents/NillesFinalpaper.pdf)
--   A. Q. Nilles, “Partially Coherent Transport: Computational Analysis and
-    Overcoming Anderson Localization," 2014 CSM Physics poster session.
 
-TALKS
+INVITED TALKS AND POSTERS
 =====
-
 
 -   "Interesting Trajectories of Mobile Robots in Polygons," 2017 Midwest
     Robotics Workshop (MWRW). May 18 2017.
@@ -225,4 +227,8 @@ TALKS
     October 3 2016.
 -   "Case Studies in Robotics Toolchains," UIUC Robotics Seminar,
     September 9 2016.
+-   A. Q. Nilles, “Partially Coherent Transport: Computational Analysis and
+    Overcoming Anderson Localization," 2014 CSM Physics poster session.
+-   A. Q. Nilles, I. Becerra, and S. M. LaValle. "Controllable Billiards: Characterizing the Paths of Simple Mobile Robots,"
+    poster in *Dynamics Days*, 2018.
 

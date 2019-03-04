@@ -14,7 +14,11 @@ header-includes:
 
 \pagenumbering{gobble}
 
-\noindent
+Robots such as wheeled ground mobile robots and flying drones are
+becoming general-purpose tools for human endeavours such as monitoring forests,
+oceans, or construction sites; delivering cargo in warehouses and in our cities;
+and cleaning our houses.
+
 My primary research goal is to improve the state-of-the-art abstractions and
 tools for modelling, programming and guaranteeing the behavior of
 robotic systems. To approach this broad goal, I focus on 
