@@ -14,80 +14,150 @@ header-includes:
 
 \pagenumbering{gobble}
 
-Robots such as wheeled ground mobile robots and flying drones are
-becoming general-purpose tools for human endeavours such as monitoring forests,
-oceans, or construction sites; delivering cargo in warehouses and in our cities;
-and cleaning our houses.
+Robots such as wheeled ground mobile robots and flying drones are becoming
+general-purpose tools for human endeavours such as monitoring forests, oceans,
+or construction sites; delivering cargo in warehouses and in our cities; and
+cleaning our houses. We can imagine an informal spectrum of "complexity" of such
+robots, including design factors such as sensor and actuator power, 
+communication requirements, and algorithmic space and time requirements. 
+On the low-complexity end of the spectrum, mobile robots often
+use reactive or random strategies (such as the original vacuuming
+robots). These techniques can provide asymptotic guarantees on tasks such
+as space coverage, but these robots are often specialized to one task and do not
+recover well from failure modes (as shown by the many online videos of vacuuming
+robots stuck on cords or in corners). On the high-complexity end of the
+spectrum, robots use power- and data-intensive techniques such as GPS
+navigation, computer vision, and/or SLAM. When applied indiscriminately, these
+technologies can be unnecessary for the task and introduce complex "moving
+parts" in hardware and software that have their own
+difficult-to-understand failure modes. If we want to move mobile robot
+technologies toward being more reliable and efficient, more work must be done in
+the analysis and development of mobile robot systems that use
+the minimal amount of model complexity, sensing, computing, communication, 
+and actuation to achieve tasks with well-characterized responses to component 
+failure or environment changes.
 
-My primary research goal is to improve the state-of-the-art abstractions and
-tools for modelling, programming and guaranteeing the behavior of
-robotic systems. To approach this broad goal, I focus on 
-*minimality:* what tasks can be completed by robots with 
-limited sensing, actuation, and computational capabilities? By exploring the 
-"lower bounds" of robot power, we can gain a better
-understanding of the fundamental informational requirements of robot tasks. We
-are also forced to more carefully define what robotic *tasks* are, and how to define
-tasks in a platform-invariant way. I also explore how these
-questions relate to the robot *design process* itself: better abstractions
-can enhance human creative capacity. I have several ongoing research projects
-along these themes.
+**Research Question:**
 
-\noindent
-\textbf{Robust nondeterministic mobile robots through simple boundary
-interactions:} With my advisor Dr. Steve LaValle, I am 
-examining "bouncing robots": robots which move forward in straight lines until
-colliding with an environment boundary, at which point they can rotate in place
-and move forward again. We also consider nondeterministic error in the rotation,
-since robots rarely rotate or translate perfectly. We have developed
-an algorithm for synthesizing simple controllers which cause the robot's path to converge to a stable
-limit cycle on a specified sequence of edges in polygonal environments (or determine
-that no such controller exists). Our results provide guarantees on how precise the
-robot control and actuation needs to be in order to cause the robot to "patrol"
-a space on a repeatable path. I have presented results from this work at the 2017 Midwest
-Robotics Workshop, IROS 2017, and the 2018 Dynamics Days conference. We are now
-using these results as building blocks for more complex tasks,
-such as navigation, localization and coverage, and formalizing task
-specifications. We are working toward algorithmically determining if a given mobile robot (with a specific sensor and actuator
-configuration) is capable of completing a given task in a given environment.
-Such results can help inform automated robot design and verification tools.
+What guarantees can we prove about the robustness of path-dependent tasks performed by
+underactuated mobile robots? Singleton robots and multi-robot systems.
 
-\noindent
-\textbf{Robust nondeterministic self-assembly through simple robot-robot
-interactions:} From my physics background, I have a strong interest in materials 
-which achieve useful global structure or dynamics with minimal
-information processing, through local structures and coarse global
-controls. Along this line, I am mentoring a team of
-undergraduates researching minimal sensing and actuation strategies
-for collective directed rotation, translation, and eventually collective
-manipulation. We use off-the-shelf motorized "weaselballs," and augment them with 
-assemblies that can alter their dynamics (through weight and friction), house simple 
-sensors, and attach and detach from each other. Results on assembly dynamics have been presented by
-the team of undergraduates at the 2018 UIUC Undergraduate Engineering Research
-Fair, and we are now working toward synthesis of local rules for collective manipulation 
-of robot assemblies and objects.
+What is the dependence of task satisfiability and robustness on complexity of model structure, 
+sensing requirements, strategy complexity?
 
-\noindent
-\textbf{A high-level compositional movement design tool:} I am also developing a
-project called \emph{Improv}, a high-level programming language for describing and 
-controlling robot motion, in collaboration with Dr. Amy LaViers, Dr. Mattox Beckman, 
-and undergraduate Chase Gladish. This tool includes a simple live-coding interface for ROS (Robot Operating System), the prevailing
-control architecture in robotics. While ROS is a powerful open-source toolset 
-and is immeasurably valuable to the community, the user interface can be quite inefficient
-(and intimidating for newcomers to programming and robotics). *Improv* helps fill this gap,
-and takes guidance 
-from the movement analysis and dance communities to create a 
-principled language for designing robotic movement. I will be presenting this work at the 2018 ACM International Conference on
-Movement Computing, and soon will run a user study to test
-\emph{Improv}'s user experience.
+What types of abstractions most effectively balance robust guarantees with
+system usability? Need to choose both "nouns" and "verbs" to enhance human
+understanding of systems and human creative capacity.
 
-\noindent
+**Related Work:**
+
+- LaValle (comparing power of robots, sensor lattice, bouncing robots)
+- Censi (codesign)
+- egerstedt (MDLe, strategy complexity, collisions as info sources)
+- Shell and O'Kane (automatic filter reduction / language-theoretic approach)
+- Shell (clustering)
+- Nagpal, Petersen, Klavins (robust group behavior from simple rules)
+- Murphey (ergodicity, emergence, compliance)
+- other compliance / funnelling
+
+
+\textbf{Robust nondeterministic mobile robot strategies from boundary
+interactions:} Many different mobile robot platforms have the capability to move
+forward indefinitely until encountering an environment boundary. We treat these
+types of systems as underactuated robots, where our only control input is the
+type of reorientation "rule" the robot should follow when it encounters a boundary.
+Despite its ubiquity, this motion model has not yet been seriously considered by robotics
+researchers. Our major contribution so far has been to characterize the
+properties of the dynamical system created by iterating the same 
+boundary interaction rule indefinitely; we have focused on characterizing
+stabilizing limit cycles and their basins of attraction. Since robots rarely
+rotate or translate perfectly, we can then include nondeterminism in our motion
+model and find strategies which use limit cycles to reduce uncertainty in the
+robot's state. Using this dynamical information, as well as geometrical
+structure of environments, we can create strategies for these robots which
+switch between boundary interaction rules to accomplish tasks such as navigating
+and patrolling in nonconvex polygonal environments. In the nondeterministic case, our synthesis algorithms provide feedback on how
+accurate the robot's actuation needs to be in order to successfully accomplish
+the task.
+
+We are now incorporating these results on path dynamics, along with different
+sensor models, into algorithms that
+synthesize strategies for more complex tasks such as localization and coverage. 
+The long term goal with this project is to combine our results with formal methods
+tools to create automated mobile robot system design and verification tools, where the
+user can input an environment and a task specification and explore different 
+mobile robot system design options.
+
+\textbf{Robust nondeterministic self-assembly from robot-robot
+interactions:} In environments such as outer space or at micro- and nano-scales,
+we are investigating how extremely underactuated robots may complete tasks such
+as self-assembly and collective manipulation. By "extremely underactuated," we
+mean robots such as micro-scale self-propelled particles [@bechinger2016active]
+that may be
+influenced by external fields or other "mode switching" controls, but their
+movement is dominated by stochastic effects.
+
+We would like to achieve useful global structure or dynamics with minimal
+information processing, through local structures and coarse global controls.
+Along this line, I am mentoring a team of undergraduates who are developing a
+low-cost platform for studying related algorithms, along with a software toolbox
+for analysis and design of these systems. We use off-the-shelf motorized
+spherical toys which we call "wild bodies," due to their highly nonlinear
+dynamics, dynamics which are analogous to how micro-scale self-propelled
+particles move. We are also developing 3D-printed hubs, powered by the wild
+bodies, that can alter the ball's dynamics (through weight and friction), house
+simple sensors, and attach and detach from each other. This hardware platform,
+along with a simulation and analysis toolbox, are allowing us to investigate
+design and control techniques for self-assembly and collective manipulation.
+
+The main challenge is creating control synthesis algorithms that act over an
+entire "ensemble" of robots, instead of controlling individual agents. We are
+using a mixture of data-driven models such as Markovian models and "active
+Brownian motion" models to predict spatial density of agents, as well as
+reaction kinetics and dynamics to model the assembly and disassembly of agents
+[@zhang2015toward].
+So far, we have demonstrated the ability of these agents to cluster objects in
+their environment through mechanical interactions, at different rates
+depending on ensemble velocity and density. We are also characterizing
+how the rate at which agents attach and detach from each other affects local
+density of the agents and ensemble characteristics. The
+long-term goals of this research are 1) to refine our theoretical guarantees about
+system behavior, including using information and game-theoretic approaches; 2) 
+find natural discrete modes of the system which lend themselves well to user
+interface design; and 3) apply our analysis and control techniques to "synthetic cells":
+micro-scale particles with very limited onboard sensing and computation, which
+are being developed to assist with biological research and micro-scale
+manufacturing.
+
+\textbf{A high-level compositional movement design tool:} The third component of
+my research focuses directly on interfaces for control of underactuated robots.
+This tool interfaces with ROS (Robot Operating System), the prevailing control
+architecture in robotics. While ROS is a powerful open-source toolset and is
+immeasurably valuable to the community, the user interface can be quite
+inefficient (and intimidating for newcomers to programming and robotics).
+Additionally, most ROS libraries are structured around low-level controllers for
+robot systems, such as joint-angle controllers or velocity setpoints. When
+controlling underactuated systems, different programming paradigms are needed.
+
+My tool is a high-level programming language; instructions in this language are
+translated to ROS messages when executed. The language uses *choreographic*
+spatial and temporal combinators and transformers, such as *reverse* or
+*reflect*, to allow users to build up movement sequences out of
+motion primitives that can be executed by an underactuated robotic system.
+Users can prototype these movement sequences in a "live" development loop
+which uses Gazebo or other ROS-integrated simulators to visualize the effects of 
+commands in real time. Compositional movement generation and
+live coding are two features that are specifically geared toward control of
+underactuated systems, where 
+
 \textbf{Future work:} My future goals are to continue exploring formal
-guarantees on robot behavior, apply these results to robotic software
-tools (especially interactive design tools) and use hardware
-experiments to verify the theory. I also plan to extend my work on
-robot-environment interaction and robot-robot interaction in 2D environments to aerial robots in 3D. 
-Much of my research is in collaboration with undergraduates, and continuing to mentor students is one of the aspects of an academic career that I
-look forward to the most.
+guarantees on robot behavior, apply these results to robotic software tools
+(especially interactive design tools) and use hardware experiments to verify the
+theory. I also plan to extend my work on robot-environment interaction and
+robot-robot interaction in 2D environments to aerial robots in 3D. Much of my
+research is in collaboration with undergraduates, and continuing to mentor
+students is one of the aspects of an academic career that I look forward to the
+most.
 
 <!--
 Robotics is a
@@ -96,25 +166,4 @@ affects mundane details of people's everyday lives.
 
 Having fewer "moving parts" on a robot (whether actual moving parts, or sensors,
 or amount of computational state) can lead to more robust designs.
-
-This work contributes to our fundamental
-understanding of the capabilities of robots, and the resulting high-level
-abstractions can also be applied to algorithms for automated robot design and
-verification. This line of work is also useful for determining the
-\emph{minimal} amount of information needed to complete a task, leading to more
-efficient robots.
-
-As a fledgling robotics researcher, it amazes me to realize the changes that
-have swept the field in recent history - the increasing capabilities of hardware manufacturing,
-computational systems, and new sensors are transforming robots from academic
-curiousities and constrained factory tools to a real technology which will
-have impacts on many facets of our human experience. I feel incredibly lucky to be
-beginning my career now, and also feel compelled to structure my research around
-the development of robotics as a field in itself, by tackling fundamental
-questions about the nature and capability of robotic systems.
-
-We also are working to understand the relative power
-of different mobile robot models - for instance, can a mobile robot with an
-angular odometer and a contact sensor perform all the same tasks as a robot with
-a compass and contact sensor? 
 -->

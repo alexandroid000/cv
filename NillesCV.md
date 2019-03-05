@@ -37,9 +37,9 @@ Status:
 :   Advisor: [Steve LaValle](http://msl.cs.uiuc.edu/~lavalle/)
 
 Research Interests:
-:   Developing useful and mathematically sound abstractions for robot design and
-    control. Applying these abstractions, and new developments in programming
-    languages and formal methods, to robotics software tools.
+:   Dynamics, control and design of underactuated mobile robots, with an
+emphasis on using minimal sensing and physical compliance to reduce
+computational requirements and increase robustness of robotic systems.
 
 
 EDUCATION
