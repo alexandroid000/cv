@@ -5,7 +5,7 @@ template: res_template.latex
 header-includes:
 - |
   ```{=latex}
-  \hypersetup{ colorlinks=true, linkcolor=cyan }
+  \hypersetup{ colorlinks=false, linkcolor=cyan }
   \setlength{\parindent}{16pt}
   \setlength{\emergencystretch}{3em}
   \usepackage{titlesec}
@@ -168,7 +168,6 @@ PROFESSIONAL ACTIVITIES
     2016 semester).
     - Recruited student speakers, advertised talks, maintained wiki with schedule
       and speaker slides.
-    
 
 AWARDS AND HONORS
 ======
@@ -185,6 +184,7 @@ AWARDS AND HONORS
 OUTREACH AND DIVERSITY SERVICE
 =======
 
+-   2019 WAFR Robot Guru Mentor - ongoing mentorship of undergraduates.
 -   Founding member of Equality Through Awareness (ETA) at CSM, a group promoting
     diversity in STEM through discussion, mentoring, and invited speakers.
     - personally facilitated weekly group discussions on articles and topics
@@ -220,6 +220,8 @@ PUBLICATIONS
 INVITED TALKS AND POSTERS
 =====
 
+-   "Towards Self-Assembly and Collective Manipulation with Extremely
+    Underactuated Robots," NxR Group Meeting, Northwestern University. 1 March 2019.
 -   "Interesting Trajectories of Mobile Robots in Polygons," 2017 Midwest
     Robotics Workshop (MWRW). May 18 2017.
 -   "New Developments in Combinatorial Data Structures and
