@@ -37,10 +37,9 @@ Status:
 :   Advisor: [Steve LaValle](http://msl.cs.uiuc.edu/~lavalle/)
 
 Research Interests:
-:   Dynamics, control and design of underactuated mobile robots, with an
-emphasis on using minimal sensing and physical compliance to reduce
-computational requirements and increase robustness of robotic systems.
-
+: Dynamics, control and design of mobile robots, with an emphasis on
+characterizing minimal sensing, power and computational requirements, and using 
+physical compliance to increase robustness of underactuated robots.
 
 EDUCATION
 =========
@@ -53,6 +52,10 @@ Degree:
 
 Dates:
 :   Aug 2015 - present
+
+GPA:
+:   3.73
+
 
 Colorado School of Mines (CSM) (Golden, CO)
 -------------------------------------------
@@ -77,10 +80,10 @@ Programming:
     Comfortable learning new languages.
 
 Experimental:
-:   Comfortable with electronics prototype design and construction. Familiar
-    with electronics lab equipment (oscilloscopes, multimeters, soldering, etc),
-    safety, and troubleshooting techniques. Experienced with collection and
-    analysis of video and motion-capture data.
+:   Electronics prototype design and construction, using electronics lab 
+    equipment (oscilloscopes, multimeters, soldering, etc),
+    safety and troubleshooting techniques. Experienced with collection and
+    analysis of video, motion-capture, and IMU data.
 
 Computing:
 :   Experience in Linux (several distributions, comfortable with the command
@@ -89,9 +92,93 @@ Computing:
 Teaching:
 :   Paid tutor at Colorado School of Mines math learning
     center. Volunteer tutor at Python, Linux, and high-performance computing
-    help sessions in the physics department.
+    help sessions.
 
-PREVIOUS POSITIONS
+PEER-REVIEWED PUBLICATIONS
+============
+
+-   A. Q. Nilles, Y. Ren, I. Becerra, S. M. LaValle. "A Visibility-Based
+    Approach to Computing Nondeterministic Bouncing Strategies," in the *13th
+    Annual Workshop on the Algorithmic Foundations of Robotics*,  2018.
+-   A. Q. Nilles, C. Gladish, M. Beckman, and A. LaViers. "Improv: Live Coding
+    for Robot Motion Design," in *Proceedings of the 5th International
+    Conference on Movement Computing*, ACM. 2018.
+-   A. LaViers, C. Cuan, C. Maguire, K. Bradley, K. B. Mata, A. Nilles, I.
+    Vidrin, N. Chakraborty, M. Heimerdinger, U. Huzaifa, R. McNish, I. Pakrasi,
+    and A. Zurawski. "Choreographic and Somatic Approaches for the Development
+    of Expressive Robotic Systems," in *MDPI -- Arts*, 2018.
+-   A. Q. Nilles, I. Becerra, and S. M. LaValle. "Periodic Trajectories of
+    Mobile Robots," in *IEEE Conference on Intelligent Robots and Systems
+    (IROS)*, 2017.
+
+MISC PUBLICATIONS, INVITED TALKS AND POSTERS
+=====
+
+-   "Towards Self-Assembly and Collective Manipulation with Extremely
+    Underactuated Robots," NxR Group Meeting, Northwestern University. 1 March 2019.
+-   A. Q. Nilles, D. A. Shell, J. M. O'Kane. "Robot Design: Formalisms,
+    Representations, and the Role of the Designer," in *Workshop on the
+    Autonomous Design of Robots* at ICRA 2018.
+-   A. Q. Nilles, I. Becerra, and S. M. LaValle. "Controllable Billiards: Characterizing the Paths of Simple Mobile Robots,"
+    poster in *Dynamics Days*, 2018.
+-   "Interesting Trajectories of Mobile Robots in Polygons," 2017 Midwest
+    Robotics Workshop (MWRW). May 18 2017.
+-   "New Developments in Combinatorial Data Structures and
+    Algorithms for Robotic Planning, Filtering and Design," UIUC Theory Seminar,
+    October 3 2016.
+-   "Case Studies in Robotics Toolchains," UIUC Robotics Seminar,
+    September 9 2016.
+-   A. Q. Nilles, “Partially Coherent Transport: Computational Analysis and
+    Overcoming Anderson Localization," 2014 CSM Physics poster session.
+-   A. Q. Nilles, "Teaching the Smart Grid: Why Data Management is Essential to
+    the Future of Electricity," [WISE Journal of Engineering and Public
+    Policy.](http://www.wise-intern.org/journal/2013/documents/NillesFinalpaper.pdf)
+
+PROFESSIONAL ACTIVITIES
+=======================
+
+-   Co-organizer for 2017 Robotic Science and Systems (RSS) full day workshop,
+    "Minimality and Trade-offs in Automated Robot Design." July 16 2017.
+    - Recruited and communicated with speakers, helped develop materials (The
+      Robot Design Game, \url{http://robot-design.org/}), facilitated workshop
+      and discussions.
+-   President of Computer Science Graduate Students Organization (fall 2017 -
+    present).
+    - Organize social events, communicate with department administration 
+    about graduate student needs, assist in organizing annual prospective PhD
+    student visit weekend.
+-   Reviewer for IROS '17, '18, ICRA '18, EAAI '17
+-   Head of student committee organizing an internal Robotics@UIUC seminar (Fall
+    2016 semester).
+    - Recruited student speakers, advertised talks, maintained wiki with schedule
+      and speaker slides.
+
+AWARDS AND HONORS
+======
+
+-   Leung Student Venture Fund Award ($1000 to support undergraduate researchers
+    in the Motion Strategy Lab), UIUC ECE Department. I supervised these undergraduates and wrote majority of
+    the grant application. 2019
+-   Saburo Muroga Endowed Fellowship, UIUC CS Department. \hfill 2015-2016
+-   Physics Faculty Distinguished Graduate Award, CSM. \hfill May 2015
+-   Leo Borasio Outstanding Junior Award, McBride Honors Program, CSM. \hfill May 2014
+-   President’s Undergraduate Scholarship, CSM. \hfill 2011-2015
+-   ECC Women’s Leadership Group Scholarship. \hfill 2011
+
+OUTREACH AND DIVERSITY SERVICE
+=======
+
+-   2019: WAFR Robot Guru Mentor - ongoing mentorship of undergraduates.
+-   2014: Founding member of Equality Through Awareness (ETA) at CSM, a group promoting
+    diversity in STEM through discussion, mentoring, and invited speakers.
+    - personally facilitated weekly group discussions on articles and topics
+      relevant to underrepresented minorities
+    - 2018: ETA was awarded the Martin Luther King Jr. Recognition Award from CSM
+-   2012-2015: Society of Physics Students - participated in outreach events such as
+    travelling to local elementary/middle schools to do science demos and
+    promote interest in physics
+
+PAST EMPLOYMENT
 ==================
 
 ### Petronics internship: Development of small, agile mobile robot
@@ -149,88 +236,4 @@ Description:
 Dates:
 :   June - Aug 2013
 
-PROFESSIONAL ACTIVITIES
-=======================
-
--   Co-organizer for 2017 Robotic Science and Systems (RSS) full day workshop,
-    "Minimality and Trade-offs in Automated Robot Design." July 16 2017.
-    [Website](http://minimality.mit.edu/)
-    - Recruited and communicated with speakers, helped develop materials (The
-      Robot Design Game, \url{http://robot-design.org/}), facilitated workshop
-      and discussions.
--   President of Computer Science Graduate Students Organization (fall 2017 -
-    present).
-    - Organize social events, communicate with department administration 
-    about graduate student needs, assist in organizing annual prospective PhD
-    student visit weekend.
--   Reviewer for IROS '17, '18, ICRA '18, EAAI '17
--   Head of student committee organizing an internal Robotics@UIUC seminar (Fall
-    2016 semester).
-    - Recruited student speakers, advertised talks, maintained wiki with schedule
-      and speaker slides.
-
-AWARDS AND HONORS
-======
-
--   Leung Student Venture Fund Award ($1000 to support undergraduate researchers
-    in the Motion Strategy Lab), UIUC ECE Department. I supervised these undergraduates and wrote majority of
-    the grant application. 2019
--   Saburo Muroga Endowed Fellowship, UIUC CS Department. \hfill 2015-2016
--   Physics Faculty Distinguished Graduate Award, CSM. \hfill May 2015
--   Leo Borasio Outstanding Junior Award, McBride Honors Program, CSM. \hfill May 2014
--   President’s Undergraduate Scholarship, CSM. \hfill 2011-2015
--   ECC Women’s Leadership Group Scholarship. \hfill 2011
-
-OUTREACH AND DIVERSITY SERVICE
-=======
-
--   2019 WAFR Robot Guru Mentor - ongoing mentorship of undergraduates.
--   Founding member of Equality Through Awareness (ETA) at CSM, a group promoting
-    diversity in STEM through discussion, mentoring, and invited speakers.
-    - personally facilitated weekly group discussions on articles and topics
-      relevant to underrepresented minorities
-    - ETA has since won the Martin Luther King Jr. Recognition Award from CSM
--   Society of Physics Students - participated in outreach events such as
-    travelling to local elementary/middle schools to do science demos and
-    promote interest in physics
-
-PUBLICATIONS
-============
-
--   A. Q. Nilles, Y. Ren, I. Becerra, S. M. LaValle. **A Visibility-Based
-    Approach to Computing Nondeterministic Bouncing Strategies**. In the *13th
-    Annual Workshop on the Algorithmic Foundations of Robotics*,  2018.
--   A. Q. Nilles, D. A. Shell, J. M. O'Kane. "Robot Design: Formalisms,
-    Representations, and the Role of the Designer," in *Workshop on the
-    Autonomous Design of Robots* at ICRA 2018.
--   A. Q. Nilles, C. Gladish, M. Beckman, and A. LaViers. "Improv: Live Coding
-    for Robot Motion Design," in *Proceedings of the 5th International
-    Conference on Movement Computing*, ACM. 2018.
--   A. LaViers, C. Cuan, C. Maguire, K. Bradley, K. B. Mata, A. Nilles, I.
-    Vidrin, N. Chakraborty, M. Heimerdinger, U. Huzaifa, R. McNish, I. Pakrasi,
-    and A. Zurawski. "Choreographic and Somatic Approaches for the Development
-    of Expressive Robotic Systems," in *MDPI -- Arts*, 2018.
--   A. Q. Nilles, I. Becerra, and S. M. LaValle. "Periodic Trajectories of
-    Mobile Robots," in *IEEE Conference on Intelligent Robots and Systems
-    (IROS)*, 2017.
--   A. Q. Nilles, "Teaching the Smart Grid: Why Data Management is Essential to
-    the Future of Electricity," [WISE Journal of Engineering and Public
-    Policy.](http://www.wise-intern.org/journal/2013/documents/NillesFinalpaper.pdf)
-
-INVITED TALKS AND POSTERS
-=====
-
--   "Towards Self-Assembly and Collective Manipulation with Extremely
-    Underactuated Robots," NxR Group Meeting, Northwestern University. 1 March 2019.
--   "Interesting Trajectories of Mobile Robots in Polygons," 2017 Midwest
-    Robotics Workshop (MWRW). May 18 2017.
--   "New Developments in Combinatorial Data Structures and
-    Algorithms for Robotic Planning, Filtering and Design," UIUC Theory Seminar,
-    October 3 2016.
--   "Case Studies in Robotics Toolchains," UIUC Robotics Seminar,
-    September 9 2016.
--   A. Q. Nilles, “Partially Coherent Transport: Computational Analysis and
-    Overcoming Anderson Localization," 2014 CSM Physics poster session.
--   A. Q. Nilles, I. Becerra, and S. M. LaValle. "Controllable Billiards: Characterizing the Paths of Simple Mobile Robots,"
-    poster in *Dynamics Days*, 2018.
 
