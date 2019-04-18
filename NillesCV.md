@@ -29,7 +29,7 @@ header-includes:
 
 Contact:
 :   nilles2@illinois.edu
-:   [My website](http://nilles2.web.engr.illinois.edu/)
+:   [http://nilles2.web.engr.illinois.edu/](http://nilles2.web.engr.illinois.edu/)
 
 Status:
 :   PhD Candidate
@@ -38,8 +38,9 @@ Status:
 
 Research Interests:
 : Dynamics, control and design of mobile robots, with an emphasis on
-characterizing minimal sensing, power and computational requirements, and using 
-physical compliance to increase robustness of underactuated robots.
+characterizing tasks and their minimal sensing, power and computational
+requirements, and using physical compliance to increase robustness of
+underactuated robots.
 
 EDUCATION
 =========
@@ -137,17 +138,18 @@ MISC PUBLICATIONS, INVITED TALKS AND POSTERS
 PROFESSIONAL ACTIVITIES
 =======================
 
--   Co-organizer for 2017 Robotic Science and Systems (RSS) full day workshop,
-    "Minimality and Trade-offs in Automated Robot Design." July 16 2017.
-    - Recruited and communicated with speakers, helped develop materials (The
-      Robot Design Game, \url{http://robot-design.org/}), facilitated workshop
-      and discussions.
 -   President of Computer Science Graduate Students Organization (fall 2017 -
     present).
     - Organize social events, communicate with department administration 
     about graduate student needs, assist in organizing annual prospective PhD
     student visit weekend.
--   Reviewer for IROS '17, '18, ICRA '18, EAAI '17
+-   Reviewer for IROS '17, '18, '19; ICRA '18, '19; EAAI '17
+-   Program Committee Member for MRS '19
+-   Co-organizer for 2017 Robotic Science and Systems (RSS) full day workshop,
+    "Minimality and Trade-offs in Automated Robot Design." July 16 2017.
+    - Recruited and communicated with speakers, helped develop materials (The
+      Robot Design Game, \url{http://robot-design.org/}), facilitated workshop
+      and discussions.
 -   Head of student committee organizing an internal Robotics@UIUC seminar (Fall
     2016 semester).
     - Recruited student speakers, advertised talks, maintained wiki with schedule
