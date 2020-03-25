@@ -1,5 +1,5 @@
 ---
-geometry: margin=2.0cm
+geometry: margin=1in
 fontsize: 11pt
 template: res_template.latex
 header-includes:
@@ -38,9 +38,8 @@ Status:
 
 Research:
 : Dynamics, control and design of mobile robots, with an emphasis on
-characterizing tasks and their minimal sensing, power and computational
-requirements, and using physical compliance to increase robustness of
-underactuated robots.
+characterizing tasks and their minimal sensing and computational
+requirements, and compliant approaches to designing robust underactuated robots.
 
 EDUCATION
 =========
@@ -76,6 +75,9 @@ GPA:
 PEER REVIEWED CONFERENCE PAPERS
 ============
 
+-   A. Q. Nilles, A. Pervan, T. Berrueta, T. Murphey, S. M. LaValle.
+    "Information Requirements of Collision-Based Micromanipulation," in the *14th
+    Workshop on the Algorithmic Foundations of Robotics*,  under review.
 -   A. Q. Nilles, J. Wasserman, A. Born, C. Horn, J. Born, S. M. LaValle. "A
     Hardware and Software Testbed for Underactuated Self-Assembling Robots," in the
     *IEEE International Symposium on Multi-Robot and Multi-Agent Systems,* 2019.
@@ -92,6 +94,9 @@ PEER REVIEWED CONFERENCE PAPERS
 JOURNAL ARTICLES
 ==============
 
+-   A. Q. Nilles, Y. Ren, I. Becerra, S. M. LaValle. "A Visibility-Based
+    Approach to Computing Nondeterministic Bouncing Strategies," in *The
+    International Journal of Robotics Research*,  expected 2020.
 -   A. LaViers, C. Cuan, C. Maguire, K. Bradley, K. B. Mata, A. Nilles, I.
     Vidrin, N. Chakraborty, M. Heimerdinger, U. Huzaifa, R. McNish, I. Pakrasi,
     and A. Zurawski. "Choreographic and Somatic Approaches for the Development
@@ -134,7 +139,7 @@ PROFESSIONAL ACTIVITIES
     - Organized social events, communicated with department administration 
     about graduate student needs, assisted in organizing annual prospective PhD
     student visit weekend.
--   Reviewer for IROS '17, '18, '19; ICRA '18, '19, '20; EAAI '17; CGTA '19
+-   Reviewer for IROS '17, '18, '19, '20; ICRA '18, '19, '20; EAAI '17; CGTA '19
 -   Program Committee Member for MRS '19
 -   Co-organizer for 2017 Robotic Science and Systems (RSS) full day workshop,
     "Minimality and Trade-offs in Automated Robot Design." July 16 2017.
@@ -142,7 +147,7 @@ PROFESSIONAL ACTIVITIES
       Robot Design Game, \url{http://robot-design.org/}), facilitated workshop
       and discussions.
 -   Head of student committee organizing an internal Robotics@UIUC seminar (Fall
-    2016 semester).
+    2016).
     - Recruited student speakers, advertised talks, maintained wiki with schedule
       and speaker slides.
 
