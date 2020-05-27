@@ -77,7 +77,8 @@ PEER REVIEWED CONFERENCE PAPERS
 
 -   A. Q. Nilles, A. Pervan, T. Berrueta, T. Murphey, S. M. LaValle.
     "Information Requirements of Collision-Based Micromanipulation," in the *14th
-    Workshop on the Algorithmic Foundations of Robotics*,  under review.
+    Workshop on the Algorithmic Foundations of Robotics*,  accepted, pending
+    publication.
 -   A. Q. Nilles, J. Wasserman, A. Born, C. Horn, J. Born, S. M. LaValle. "A
     Hardware and Software Testbed for Underactuated Self-Assembling Robots," in the
     *IEEE International Symposium on Multi-Robot and Multi-Agent Systems,* 2019.
