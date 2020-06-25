@@ -6,7 +6,9 @@ all: \
     	NillesCV.tex \
     	NillesCV.pdf \
     	Nilles-resume-2pg.tex \
-    	Nilles-resume-2pg.pdf
+    	Nilles-resume-2pg.pdf \
+    	Nilles-resume-1pg.tex \
+    	Nilles-resume-1pg.pdf
 
 %.tex: %.md
 	pandoc -s --data-dir=/home/alli/common --filter=pandoc-citeproc --from=markdown --to=latex	-o $@ $<
@@ -14,9 +16,6 @@ all: \
 NillesCV.pdf: NillesCV.tex
 	pdflatex NillesCV.tex
 
-%.pdf: %.md
-	pandoc --data-dir=/home/alli/common --filter=pandoc-citeproc --from=markdown --to=latex	-o $@ $<
-	
 %.pdf: %.md
 	pandoc --data-dir=/home/alli/common --filter=pandoc-citeproc --from=markdown --to=latex	-o $@ $<
 	
