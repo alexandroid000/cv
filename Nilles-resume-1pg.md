@@ -47,7 +47,7 @@ Degree:
 :   PhD Candidate in Department of Computer Science. GPA 3.73/4.0
 
 Thesis:
-:   *Algorithmic Approaches to Planning for Mobile Robot Boundary Interactions*
+:   *Designing Boundary Interactions for Simple Mobile Robots*
     
 Advisor:
 :   Dr. Steven M. LaValle

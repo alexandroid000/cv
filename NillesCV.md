@@ -44,32 +44,28 @@ requirements, and compliant approaches to designing robust underactuated robots.
 EDUCATION
 =========
 
-University of Illinois (UIUC) (Urbana-Champaign, IL)
+University of Illinois at Urbana-Champaign (UIUC) \hfill {\footnotesize Aug. 2015 - Oct 2020 (estimated)}
 ----------------------------------------------------
 
 Degree:
-:   PhD in Computer Science
+:   PhD Candidate in Department of Computer Science. GPA 3.73/4.0
 
-Dates:
-:   Aug 2015 - present
+Thesis:
+:   *Designing Boundary Interactions for Simple Mobile Robots*
+    
+Advisor:
+:   Dr. Steven M. LaValle
 
-GPA:
-:   3.73
 
 
-Colorado School of Mines (CSM) (Golden, CO)
--------------------------------------------
+Colorado School of Mines (CSM) \hfill {\footnotesize Aug. 2011 - May 2015}
+------------------------------
 
 Degree:
-:   B.S. in Engineering Physics
+:   B.S. in Engineering Physics. GPA 3.93/4.0
 :   Minor in Computational and Applied Mathematics
 :   Minor in Public Affairs, from McBride Honors Program
 
-Dates:
-:   August 2011 to May 2015
-
-GPA:
-:   3.93
 
 
 PEER REVIEWED CONFERENCE PAPERS
@@ -79,6 +75,8 @@ PEER REVIEWED CONFERENCE PAPERS
     "Information Requirements of Collision-Based Micromanipulation," in the *14th
     Workshop on the Algorithmic Foundations of Robotics*,  accepted, pending
     publication.
+-   M. Suomalainen, A. Q. Nilles, S. M. LaValle. "Virtual Reality for Robots,"
+    in *IEEE Conference on Intelligent Robots and Systems (IROS)*, 2020.
 -   A. Q. Nilles, J. Wasserman, A. Born, C. Horn, J. Born, S. M. LaValle. "A
     Hardware and Software Testbed for Underactuated Self-Assembling Robots," in the
     *IEEE International Symposium on Multi-Robot and Multi-Agent Systems,* 2019.
@@ -132,6 +130,28 @@ OTHER PUBLICATIONS
     the Future of Electricity," [WISE Journal of Engineering and Public
     Policy.](http://www.wise-intern.org/journal/2013/documents/NillesFinalpaper.pdf)
 
+
+TEACHING EXPERIENCE
+===================
+
+### Research Mentoring
+
+I have supervised and mentored eleven undergraduate students on research in the
+Motion Strategy Lab in the 5.5 years of my PhD. I co-authored papers with
+five of these students, and three of my mentees have gone onto PhD programs in
+robotics or related fields at top universities. The rest are either still
+completing their education or have obtained competitive software engineering
+positions in industry.
+
+### Teaching Assistant for Introduction to Robotics
+
+For the Fall 2019 semester, I was one of five teaching assistants for ECE 470:
+Introduction to Robotics. This was an upper level 90-student class with lecture
+and lab components, and covered topics such as state estimation and filtering, forward and
+inverse kinematics, motion planning and controls. I supervised a 15-student lab section and gave two guest
+lectures for the full class. I also helped develop automatically generated
+homework and test problems using the online learning platform PrairieLearn.
+
 PROFESSIONAL ACTIVITIES
 =======================
 
@@ -168,7 +188,7 @@ OUTREACH AND DIVERSITY SERVICE
 =======
 
 -   2019-2020: Mentor for Illinois Scholars Undergraduate Research (ISUR)
-Program. Supervised two undergraduate students building a robotic pen.
+    Program. Supervised two URM undergraduate students building a robotic pen.
 -   2019: WAFR Robot Guru Mentor - ongoing mentorship of undergraduates.
 -   2014: Founding member of Equality Through Awareness (ETA) at CSM, a group promoting
     diversity in STEM through discussion, mentoring, and invited speakers.
@@ -178,7 +198,7 @@ Program. Supervised two undergraduate students building a robotic pen.
 -   2012-2015: Society of Physics Students - participated in outreach events such as
     interactive physics demonstrations at local elementary and middle schools.
 
-PAST EMPLOYMENT
+OTHER EMPLOYMENT
 ==================
 
 ### Petronics internship: Development of small, agile mobile robot
@@ -236,7 +256,7 @@ Dates:
 :   June - Aug 2013
 
 
-SKILLS
+TECHNICAL SKILLS
 ======
 
 Programming:
@@ -253,8 +273,3 @@ Experimental:
 Computing:
 :   Experience in Linux (several distributions, comfortable with the command
     line), \LaTeX, Git, Pandoc, and high performance computing clusters.
-
-Teaching:
-:   Paid tutor at Colorado School of Mines math learning
-    center. Volunteer tutor at Python, Linux, and high-performance computing
-    help sessions. TA for ECE 470, Introduction to Robotics, at UIUC.
