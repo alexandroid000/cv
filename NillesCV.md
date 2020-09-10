@@ -5,7 +5,7 @@ template: res_template.latex
 header-includes:
 - |
   ```{=latex}
-  \hypersetup{ colorlinks=false, linkcolor=cyan }
+  \hypersetup{ colorlinks=true, linkcolor=cyan }
   \setlength{\parindent}{16pt}
   \setlength{\emergencystretch}{3em}
   \usepackage{titlesec}
@@ -19,46 +19,32 @@ header-includes:
   \setlist[description]{font=\normalfont,style=multiline,leftmargin=3cm, labelindent=\parindent}
   \usepackage{fancyhdr}
   \pagestyle{fancy}
-  \lhead{\large Alexandra (Alli) Nilles}
-  \rhead{\large \emph{Curriculum Vitae}}
+  \lhead{\Large Alexandra (Alli) Nilles}
+  \rhead{\large nilles2@illinois.edu \\ \url{https://alli.nilles.info}}
   \renewcommand{\headrulewidth}{0.6pt}
   ```
 ...
 
 \pagenumbering{gobble}
 
-Contact:
-:   nilles2@illinois.edu
-:   [http://nilles2.web.engr.illinois.edu/](http://nilles2.web.engr.illinois.edu/)
-
-Status:
-:   PhD Candidate
-:   Computer Science Department, University of Illinois at Urbana-Champaign
-:   Advisor: [Dr. Steve LaValle](http://lavalle.pl/)
-
-Research:
-: Dynamics, control and design of mobile robots, with an emphasis on
-characterizing tasks and their minimal sensing and computational
-requirements, and compliant approaches to designing robust underactuated robots.
-
 EDUCATION
 =========
 
-University of Illinois at Urbana-Champaign (UIUC) \hfill {\footnotesize Aug. 2015 - Oct 2020 (estimated)}
+University of Illinois at Urbana-Champaign (UIUC) \hfill {\footnotesize 2015 - 2020}
 ----------------------------------------------------
 
 Degree:
-:   PhD Candidate in Department of Computer Science. GPA 3.73/4.0
+:   Ph.D. Candidate in Department of Computer Science. GPA 3.73/4.0
 
-Thesis:
+Thesis Title:
 :   *Designing Boundary Interactions for Simple Mobile Robots*
     
 Advisor:
-:   Dr. Steven M. LaValle
+:   Advisor: [Dr. Steven M. LaValle](http://lavalle.pl/)
 
 
 
-Colorado School of Mines (CSM) \hfill {\footnotesize Aug. 2011 - May 2015}
+Colorado School of Mines (CSM) \hfill {\footnotesize 2011 - 2015}
 ------------------------------
 
 Degree:
@@ -71,32 +57,32 @@ Degree:
 PEER REVIEWED CONFERENCE PAPERS
 ============
 
--   A. Q. Nilles, A. Pervan, T. Berrueta, T. Murphey, S. M. LaValle.
+-   **A. Nilles**, A. Pervan, T. Berrueta, T. Murphey, S. M. LaValle.
     "Information Requirements of Collision-Based Micromanipulation," in the *14th
     Workshop on the Algorithmic Foundations of Robotics*,  accepted, pending
     publication.
--   M. Suomalainen, A. Q. Nilles, S. M. LaValle. "Virtual Reality for Robots,"
+-   M. Suomalainen, **A. Nilles**, S. M. LaValle. "Virtual Reality for Robots,"
     in *IEEE Conference on Intelligent Robots and Systems (IROS)*, 2020.
--   A. Q. Nilles, J. Wasserman, A. Born, C. Horn, J. Born, S. M. LaValle. "A
+-   **A. Nilles**, J. Wasserman, A. Born, C. Horn, J. Born, S. M. LaValle. "A
     Hardware and Software Testbed for Underactuated Self-Assembling Robots," in the
     *IEEE International Symposium on Multi-Robot and Multi-Agent Systems,* 2019.
--   A. Q. Nilles, Y. Ren, I. Becerra, S. M. LaValle. "A Visibility-Based
+-   **A. Nilles**, Y. Ren, I. Becerra, S. M. LaValle. "A Visibility-Based
     Approach to Computing Nondeterministic Bouncing Strategies," in the *13th
     Annual Workshop on the Algorithmic Foundations of Robotics*,  2018.
--   A. Q. Nilles, C. Gladish, M. Beckman, and A. LaViers. "Improv: Live Coding
+-   **A. Nilles**, C. Gladish, M. Beckman, and A. LaViers. "Improv: Live Coding
     for Robot Motion Design," in *Proceedings of the 5th International
     Conference on Movement Computing*, ACM. 2018.
--   A. Q. Nilles, I. Becerra, and S. M. LaValle. "Periodic Trajectories of
+-   **A. Nilles**, I. Becerra, and S. M. LaValle. "Periodic Trajectories of
     Mobile Robots," in *IEEE Conference on Intelligent Robots and Systems
     (IROS)*, 2017.
 
 JOURNAL ARTICLES
 ==============
 
--   A. Q. Nilles, Y. Ren, I. Becerra, S. M. LaValle. "A Visibility-Based
+-   **A. Nilles**, Y. Ren, I. Becerra, S. M. LaValle. "A Visibility-Based
     Approach to Computing Nondeterministic Bouncing Strategies," in *The
     International Journal of Robotics Research*,  expected 2020.
--   A. LaViers, C. Cuan, C. Maguire, K. Bradley, K. B. Mata, A. Nilles, I.
+-   A. LaViers, C. Cuan, C. Maguire, K. Bradley, K. B. Mata, **A. Nilles**, I.
     Vidrin, N. Chakraborty, M. Heimerdinger, U. Huzaifa, R. McNish, I. Pakrasi,
     and A. Zurawski. "Choreographic and Somatic Approaches for the Development
     of Expressive Robotic Systems," in *MDPI -- Arts*, 2018.
@@ -108,6 +94,11 @@ INVITED TALKS
     Underactuated Robots," NxR Group Meeting, Northwestern University. 1 March 2019.
 -   "Interesting Trajectories of Mobile Robots in Polygons," 2017 Midwest
     Robotics Workshop (MWRW). May 18 2017.
+-   "New Developments in Combinatorial Data Structures and
+    Algorithms for Robotic Planning, Filtering and Design," UIUC Theory Seminar,
+    October 3 2016.
+-   "Case Studies in Robotics Toolchains," UIUC Robotics Seminar,
+    September 9 2016.
 
 OTHER PUBLICATIONS
 ==================
@@ -119,11 +110,6 @@ OTHER PUBLICATIONS
     Autonomous Design of Robots* at ICRA 2018.
 -   A. Q. Nilles, I. Becerra, and S. M. LaValle. "Controllable Billiards: Characterizing the Paths of Simple Mobile Robots,"
     poster in *Dynamics Days*, 2018.
--   "New Developments in Combinatorial Data Structures and
-    Algorithms for Robotic Planning, Filtering and Design," UIUC Theory Seminar,
-    October 3 2016.
--   "Case Studies in Robotics Toolchains," UIUC Robotics Seminar,
-    September 9 2016.
 -   A. Q. Nilles, “Partially Coherent Transport: Computational Analysis and
     Overcoming Anderson Localization," 2014 CSM Physics poster session.
 -   A. Q. Nilles, "Teaching the Smart Grid: Why Data Management is Essential to
@@ -273,3 +259,38 @@ Experimental:
 Computing:
 :   Experience in Linux (several distributions, comfortable with the command
     line), \LaTeX, Git, Pandoc, and high performance computing clusters.
+    
+REFERENCES
+==========
+
+- Professor Steven M. Lavalle \newline
+\qquad Center for Ubiquitous Computing \newline
+\qquad University of Oulu, Oulu, Finland \newline
+\qquad steven.lavalle@oulu.fi \newline
+\qquad +358 294 482807
+
+- Professor Nancy Amato \newline
+\qquad Department of Computer Science \newline
+\qquad University of Illinois at Urbana-Champaign, USA \newline
+\qquad namato@illinois.edu \newline
+\qquad (217) 333 3426
+
+- Professor Sayan Mitra \newline
+\qquad Department of Electrical and Computer Engineering \newline
+\qquad Coordinated Science Laboratory \newline
+\qquad Affiliate Professor, Department of Computer Science \newline
+\qquad University of Illinois at Urbana-Champaign, USA \newline
+\qquad mitras@illinois.edu \newline
+\qquad (217) 333 7824
+
+- Professor Todd Murphey \newline
+\qquad Department of Mechanical Engineering \newline
+\qquad Center for Robotics and Biosystems \newline
+\qquad Northwestern University, Evanston, Illinois, USA \newline
+\qquad t-murphey@northwestern.edu \newline
+\qquad (847) 467 1041
+
+- Professor Amy LaViers \newline
+\qquad Department of Mechanical Science and Engineering \newline
+\qquad University of Illinois at Urbana-Champaign, USA \newline
+\qquad alaviers@illinois.edu \newline
