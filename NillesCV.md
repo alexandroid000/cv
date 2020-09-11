@@ -42,8 +42,6 @@ Thesis Title:
 Advisor:
 :   Advisor: [Dr. Steven M. LaValle](http://lavalle.pl/)
 
-
-
 Colorado School of Mines (CSM) \hfill {\footnotesize 2011 - 2015}
 ------------------------------
 
@@ -51,8 +49,6 @@ Degree:
 :   B.S. in Engineering Physics. GPA 3.93/4.0
 :   Minor in Computational and Applied Mathematics
 :   Minor in Public Affairs, from McBride Honors Program
-
-
 
 PEER REVIEWED CONFERENCE PAPERS
 ============
@@ -79,6 +75,10 @@ PEER REVIEWED CONFERENCE PAPERS
 JOURNAL ARTICLES
 ==============
 
+-   L. Bobadilla, **A. Nilles**, O. Sanchez, J. Czarnowski, K. Gossman, S. M.
+    LaValle. "Controlling Wild Bodies Using Discrete Transition Systems," in
+    progress submission to *MDPI Sensors Special Issue on Robot and Sensor Networks for Environmental
+    Monitoring*, 2020.
 -   **A. Nilles**, Y. Ren, I. Becerra, S. M. LaValle. "A Visibility-Based
     Approach to Computing Nondeterministic Bouncing Strategies," in *The
     International Journal of Robotics Research*,  expected 2020.
@@ -116,27 +116,82 @@ OTHER PUBLICATIONS
     the Future of Electricity," [WISE Journal of Engineering and Public
     Policy.](http://www.wise-intern.org/journal/2013/documents/NillesFinalpaper.pdf)
 
+AWARDS AND HONORS
+======
+
+-   Mentor Stipend ($800), Illinois Scholars Undergraduate Research Program \hfill 2019
+-   Leung Student Venture Fund Award ($1000), UIUC ECE Department \hfill 2019
+-   IEEE MRS (Multi-Robot Systems) Travel Grant \hfill 2019
+-   Workshop on Algorithmic Foundations of Robotics (WAFR) Robot Guru Travel Grant \hfill 2018
+-   Saburo Muroga Endowed Fellowship ($5740), UIUC CS Department \hfill 2015-2016
+-   Physics Faculty Distinguished Graduate Award, CSM \hfill May 2015
+-   Leo Borasio Outstanding Junior Award, McBride Honors Program, CSM \hfill May 2014
+-   President’s Undergraduate Scholarship, CSM \hfill 2011-2015
+
 
 TEACHING EXPERIENCE
 ===================
 
+
+### Teaching Assistant for Introduction to Robotics \hfill Fall 2019
+
+- I was one of five teaching assistants for ECE 470:
+Introduction to Robotics, an upper level 90-student class with lecture
+and lab components, covering topics such as state estimation and filtering, forward and
+inverse kinematics, motion planning and controls.
+- Supervised a 15-student lab section and gave two guest lectures for the full class.
+- Developed homework and test problems using the online learning platform PrairieLearn.
+
 ### Research Mentoring
 
-I have supervised and mentored eleven undergraduate students on research in the
-Motion Strategy Lab in the 5.5 years of my PhD. I co-authored papers with
-five of these students, and three of my mentees have gone onto PhD programs in
-robotics or related fields at top universities. The rest are either still
-completing their education or have obtained competitive software engineering
-positions in industry.
+- [Oluwami Dosunmu-Ogunbi](https://wamiogunbi.com/)
+    - mentored 2015-2016, worked on CAD, microcontrollers, IMU data collection and analysis
+    - currently PhD student with Dr. Jessy Grizzle at University of Michigan
+- Michael Zeng
+    - collaborated on dynamical properties of bouncing robots in Fall 2016
+    - currently software engineer at Assembled
+- [Samara (Yingying) Ren](https://samararen.github.io/)
+    - co-author on one WAFR paper (and corresponding journal paper)
+    - currently PhD student at EPFL with Dr. Mark Pauly
+- [Justin Wasserman](https://jbwasse2.github.io/)
+    - supervised senior thesis on ``Controlling, Modeling, and Scaling
+      Underactuated, Non-deterministic Robot Structures"
+    - co-author on 2018 MRS paper
+    - currently PhD student at UIUC with Dr. Girish Chowdary
+- Austin Born, John Born, Chris Horn
+    - From 2017-2019 I supervised this group of students on the design and control of
+      weaselball-powered robot structures. Co-authors on 2018 MRS paper.
+    - Chris and John are still at UIUC and Austin is a software developer at
+      Omniex Holdings.
+- Chase Gladish
+    - supervised senior thesis on Improv, a live-coding platform for robot motion
+    - co-author on 2018 MOCO paper
+    - currently a Senior Software Engineer at Mastery Logistics
+- Jordan Parker
+    - worked with Jordan in 2018 on Improv when she was a freshman
+    - connected Jordan with the RAD lab at UIUC where she continued robotics research
+- Emily Hall and Max Altman
+    - I supervised Emily and Max on their 2019-2020 ISUR undergraduate research project (a
+      robotic pen) while they were sophomores
+   
+### Colorado School of Mines Math Learning Center
 
-### Teaching Assistant for Introduction to Robotics
+Description:
+:   Tutored five hours a week for all classes in Math department.  Primarily
+    calculus, differential equations, and linear algebra.
 
-For the Fall 2019 semester, I was one of five teaching assistants for ECE 470:
-Introduction to Robotics. This was an upper level 90-student class with lecture
-and lab components, and covered topics such as state estimation and filtering, forward and
-inverse kinematics, motion planning and controls. I supervised a 15-student lab section and gave two guest
-lectures for the full class. I also helped develop automatically generated
-homework and test problems using the online learning platform PrairieLearn.
+Dates:
+:   Jan 2015 - May 2015
+
+### North American Network of Science Labs Online (NANSLO)
+
+Description:
+:   Developed, monitored, and troubleshot remote-controlled robotic physics,
+    chemistry, and biology experiments for college students in online classes.
+    Served as a TA and equipment technician while classes were running.
+
+Dates:
+:   Feb 2012 - May 2014
 
 PROFESSIONAL ACTIVITIES
 =======================
@@ -155,27 +210,16 @@ PROFESSIONAL ACTIVITIES
       and discussions.
 -   Head of student committee organizing an internal Robotics@UIUC seminar (Fall
     2016).
-    - Recruited student speakers, advertised talks, maintained wiki with schedule
-      and speaker slides.
+    - Recruited student speakers, advertised talks, maintained wiki.
 
-AWARDS AND HONORS
-======
-
--   Leung Student Venture Fund Award, UIUC ECE Department \hfill 2019
--   IEEE MRS (Multi-Robot Systems) Travel Grant \hfill 2019
--   Workshop on Algorithmic Foundations of Robotics (WAFR) Robot Guru Travel
-Grant \hfill 2018
--   Saburo Muroga Endowed Fellowship, UIUC CS Department \hfill 2015-2016
--   Physics Faculty Distinguished Graduate Award, CSM \hfill May 2015
--   Leo Borasio Outstanding Junior Award, McBride Honors Program, CSM \hfill May 2014
--   President’s Undergraduate Scholarship, CSM \hfill 2011-2015
 
 OUTREACH AND DIVERSITY SERVICE
 =======
 
 -   2019-2020: Mentor for Illinois Scholars Undergraduate Research (ISUR)
     Program. Supervised two URM undergraduate students building a robotic pen.
--   2019: WAFR Robot Guru Mentor - ongoing mentorship of undergraduates.
+-   2019: WAFR Robot Guru Mentor - six month remote mentorship of undergraduates
+interested in robotics research
 -   2014: Founding member of Equality Through Awareness (ETA) at CSM, a group promoting
     diversity in STEM through discussion, mentoring, and invited speakers.
     - facilitated weekly group discussions on articles and topics
@@ -200,10 +244,10 @@ different surfaces to help improve low-level controllers.
 Dates:
 :   May 2016 - August 2016
 
-### Complexity Sciences Center, UC Davis: Implementing Predicted Information Gain Algorithms
+### Complexity Sciences Center, UC Davis
 
 Description:
-:   While working in Dr. Jim Crutchfield's group, I successfully implemented an
+:   NSF REU with Dr. Jim Crutchfield. I successfully implemented an
     information-theoretic learning algorithm for exploratory robots with limited
     sensing capabilities. I also researched ways to include more memory in the
     learning algorithm.
@@ -211,24 +255,6 @@ Description:
 Dates:
 :   June - Aug 2014
 
-### Colorado School of Mines Math Learning Center
-
-Description:
-:   Tutor five hours a week for all classes in Math department.  Primarily
-    calculus, differential equations, and linear algebra.
-
-Dates:
-:   Jan 2015 - May 2015
-
-### North American Network of Science Labs Online (NANSLO)
-
-Description:
-:   Developed, monitored, and troubleshot remote-controlled robotic physics,
-    chemistry, and biology experiments for college students in online classes.
-    Served as a TA and equipment technician while classes were running.
-
-Dates:
-:   Feb 2012 - May 2014
 
 ### Institute of Electrical and Electronics Engineers (IEEE)
 
@@ -241,25 +267,6 @@ Description:
 Dates:
 :   June - Aug 2013
 
-
-TECHNICAL SKILLS
-======
-
-Programming:
-:   Skilled in Python, Haskell, C++, embedded programming (mBed, Arduino),
-    MatLab, Mathematica, parallel computing, shell scripting.
-    Comfortable learning new languages.
-
-Experimental:
-:   Electronics prototype design and construction, using electronics lab 
-    equipment (oscilloscopes, multimeters, soldering, etc),
-    safety and troubleshooting techniques. Experienced with collection and
-    analysis of video, motion-capture, and IMU data.
-
-Computing:
-:   Experience in Linux (several distributions, comfortable with the command
-    line), \LaTeX, Git, Pandoc, and high performance computing clusters.
-    
 REFERENCES
 ==========
 
@@ -268,6 +275,18 @@ REFERENCES
 \qquad University of Oulu, Oulu, Finland \newline
 \qquad steven.lavalle@oulu.fi \newline
 \qquad +358 294 482807
+
+- Professor Amy LaViers \newline
+\qquad Department of Mechanical Science and Engineering \newline
+\qquad University of Illinois at Urbana-Champaign, USA \newline
+\qquad alaviers@illinois.edu
+
+- Professor Todd Murphey \newline
+\qquad Department of Mechanical Engineering \newline
+\qquad Center for Robotics and Biosystems \newline
+\qquad Northwestern University, Evanston, Illinois, USA \newline
+\qquad t-murphey@northwestern.edu \newline
+\qquad (847) 467 1041
 
 - Professor Nancy Amato \newline
 \qquad Department of Computer Science \newline
@@ -283,14 +302,3 @@ REFERENCES
 \qquad mitras@illinois.edu \newline
 \qquad (217) 333 7824
 
-- Professor Todd Murphey \newline
-\qquad Department of Mechanical Engineering \newline
-\qquad Center for Robotics and Biosystems \newline
-\qquad Northwestern University, Evanston, Illinois, USA \newline
-\qquad t-murphey@northwestern.edu \newline
-\qquad (847) 467 1041
-
-- Professor Amy LaViers \newline
-\qquad Department of Mechanical Science and Engineering \newline
-\qquad University of Illinois at Urbana-Champaign, USA \newline
-\qquad alaviers@illinois.edu \newline
