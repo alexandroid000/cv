@@ -5,12 +5,13 @@ template: res_template.latex
 header-includes:
 - |
   ```{=latex}
-  \hypersetup{ colorlinks=true, linkcolor=cyan }
+  \hypersetup{ colorlinks=true, linkcolor=blue }
   \setlength{\parindent}{16pt}
   \setlength{\emergencystretch}{3em}
   \usepackage{titlesec}
-  \titlespacing{\section}{0pt}{7pt}{1pt}
-  \titleformat*{\section}{\large\bfseries}
+  \usepackage{libertine}
+  \titlespacing{\section}{0pt}{10pt}{7pt}
+  \titleformat*{\section}{\large\scshape}
   \titlespacing{\subsection}{8pt}{5pt}{3pt}
   \titleformat*{\subsection}{\bfseries}
   \titlespacing{\subsubsection}{8pt}{5pt}{1pt}
@@ -19,28 +20,40 @@ header-includes:
   \setlist[description]{font=\normalfont,style=multiline,leftmargin=3cm, labelindent=\parindent}
   \usepackage{fancyhdr}
   \pagestyle{fancy}
-  \lhead{\Large Alexandra (Alli) Nilles}
-  \rhead{\large nilles2@illinois.edu \\ \url{https://alli.nilles.info}}
+  \lhead{\Large Dr. Alexandra (Alli) Nilles}
+  \rhead{\large aqn3@cornell.edu \\ \url{https://alli.nilles.info}}
   \renewcommand{\headrulewidth}{0.6pt}
   ```
 ...
 
-\pagenumbering{gobble}
 
-EDUCATION
+
+Current Position
+=========
+
+Postdoctoral Associate, Cornell University \hfill {\footnotesize 2021 - present}
+-------------------------------
+
+
+Supervisor:
+:   Kirstin Petersen, [Collective Embodied Intelligence Lab](https://cei.ece.cornell.edu/)
+:   Electrical and Computer Engineering
+
+Education
 =========
 
 University of Illinois at Urbana-Champaign (UIUC) \hfill {\footnotesize 2015 - 2020}
 ----------------------------------------------------
 
 Degree:
-:   Ph.D. Candidate in Department of Computer Science. GPA 3.73/4.0
+:   Ph.D. in Computer Science
 
 Thesis Title:
 :   *Designing Boundary Interactions for Simple Mobile Robots*
     
-Advisor:
-:   Advisor: [Dr. Steven M. LaValle](http://lavalle.pl/)
+Committee:
+:   [Steven M. LaValle](http://lavalle.pl/) (advisor), Nancy Amato, Sayan Mitra,
+    Todd Murphey (Northwestern University)
 
 Colorado School of Mines (CSM) \hfill {\footnotesize 2011 - 2015}
 ------------------------------
@@ -48,60 +61,51 @@ Colorado School of Mines (CSM) \hfill {\footnotesize 2011 - 2015}
 Degree:
 :   B.S. in Engineering Physics. GPA 3.93/4.0
 :   Minor in Computational and Applied Mathematics
-:   Minor in Public Affairs, from McBride Honors Program
+:   Minor in Public Affairs, McBride Honors Program
 
-PEER REVIEWED CONFERENCE PAPERS
+Publications
 ============
 
--   **A. Nilles**, A. Pervan, T. Berrueta, T. Murphey, S. M. LaValle.
-    "Information Requirements of Collision-Based Micromanipulation," in the *14th
-    Workshop on the Algorithmic Foundations of Robotics*,  accepted, pending
-    publication.
--   M. Suomalainen, **A. Nilles**, S. M. LaValle. "Virtual Reality for Robots,"
-    in *IEEE Conference on Intelligent Robots and Systems (IROS)*, 2020.
--   **A. Nilles**, J. Wasserman, A. Born, C. Horn, J. Born, S. M. LaValle. "A
-    Hardware and Software Testbed for Underactuated Self-Assembling Robots," in the
-    *IEEE International Symposium on Multi-Robot and Multi-Agent Systems,* 2019.
--   **A. Nilles**, Y. Ren, I. Becerra, S. M. LaValle. "A Visibility-Based
-    Approach to Computing Nondeterministic Bouncing Strategies," in the *13th
-    Annual Workshop on the Algorithmic Foundations of Robotics*,  2018.
--   **A. Nilles**, C. Gladish, M. Beckman, and A. LaViers. "Improv: Live Coding
-    for Robot Motion Design," in *Proceedings of the 5th International
-    Conference on Movement Computing*, ACM. 2018.
--   **A. Nilles**, I. Becerra, and S. M. LaValle. "Periodic Trajectories of
-    Mobile Robots," in *IEEE Conference on Intelligent Robots and Systems
-    (IROS)*, 2017.
+Journal Articles
+----------------
 
-JOURNAL ARTICLES
-==============
-
--   L. Bobadilla, **A. Nilles**, O. Sanchez, J. Czarnowski, K. Gossman, S. M.
-    LaValle. "Controlling Wild Bodies Using Discrete Transition Systems," in
-    progress submission to *MDPI Sensors Special Issue on Robot and Sensor Networks for Environmental
-    Monitoring*, 2020.
--   **A. Nilles**, Y. Ren, I. Becerra, S. M. LaValle. "A Visibility-Based
+1.  **A. Nilles**, Y. Ren, I. Becerra, S. M. LaValle. "A Visibility-Based
     Approach to Computing Nondeterministic Bouncing Strategies," in *The
-    International Journal of Robotics Research*,  expected 2020.
--   A. LaViers, C. Cuan, C. Maguire, K. Bradley, K. B. Mata, **A. Nilles**, I.
+    International Journal of Robotics Research*,  2021.
+2.  A. LaViers, C. Cuan, C. Maguire, K. Bradley, K. B. Mata, **A. Nilles**, I.
     Vidrin, N. Chakraborty, M. Heimerdinger, U. Huzaifa, R. McNish, I. Pakrasi,
     and A. Zurawski. "Choreographic and Somatic Approaches for the Development
     of Expressive Robotic Systems," in *MDPI -- Arts*, 2018.
 
-INVITED TALKS
-=============
+Conference Articles
+-------------------
 
--   "Towards Self-Assembly and Collective Manipulation with Extremely
-    Underactuated Robots," NxR Group Meeting, Northwestern University. 1 March 2019.
--   "Interesting Trajectories of Mobile Robots in Polygons," 2017 Midwest
-    Robotics Workshop (MWRW). May 18 2017.
--   "New Developments in Combinatorial Data Structures and
-    Algorithms for Robotic Planning, Filtering and Design," UIUC Theory Seminar,
-    October 3 2016.
--   "Case Studies in Robotics Toolchains," UIUC Robotics Seminar,
-    September 9 2016.
+3.  **A. Nilles**, S. Ceron, N. Napp, and K. Petersen.
+    "Strain-Based Consensus in Soft, Inflatable Robots," in the *IEEE 5th
+    International Conference on Soft Robotics (RoboSoft)*, 2022.
+3.  S. Ceron, M. A. Kimmel, **A. Nilles**, and K. Petersen. "Soft
+    Robotic Oscillators With Strain-Based Coordination," in *IEEE Robotics and
+    Automation Letters (RAL),* 2021.
+4.  **A. Nilles**, A. Pervan, T. Berrueta, T. Murphey, S. M. LaValle.
+    "Information Requirements of Collision-Based Micromanipulation," in the *14th
+    Workshop on the Algorithmic Foundations of Robotics (WAFR)*,  2021.
+5.  M. Suomalainen, **A. Nilles**, S. M. LaValle. "Virtual Reality for Robots,"
+    in *IEEE Conference on Intelligent Robots and Systems (IROS)*, 2020.
+6.  **A. Nilles**, J. Wasserman, A. Born, C. Horn, J. Born, S. M. LaValle. "A
+    Hardware and Software Testbed for Underactuated Self-Assembling Robots," in the
+    *IEEE International Symposium on Multi-Robot and Multi-Agent Systems (MRS),* 2019.
+7.  **A. Nilles**, Y. Ren, I. Becerra, S. M. LaValle. "A Visibility-Based
+    Approach to Computing Nondeterministic Bouncing Strategies," in the *13th
+    Annual Workshop on the Algorithmic Foundations of Robotics (WAFR)*,  2018.
+8.  **A. Nilles**, C. Gladish, M. Beckman, and A. LaViers. "Improv: Live Coding
+    for Robot Motion Design," in *Proceedings of the 5th International
+    Conference on Movement Computing (MOCO)*, ACM. 2018.
+8.  **A. Nilles**, I. Becerra, and S. M. LaValle. "Periodic Trajectories of
+    Mobile Robots," in *IEEE Conference on Intelligent Robots and Systems
+    (IROS)*, 2017.
 
-OTHER PUBLICATIONS
-==================
+Workshop and Poster Presentations
+---------------------------------
 
 -   A. Q. Nilles, S. M. LaValle. "Robust Combinatorial Planning over Simple
     Boundary Interactions," in *Workshop on Robust Task & Motion Planning* at RSS 2019.
@@ -116,14 +120,36 @@ OTHER PUBLICATIONS
     the Future of Electricity," [WISE Journal of Engineering and Public
     Policy.](http://www.wise-intern.org/journal/2013/documents/NillesFinalpaper.pdf)
 
+
+Invited Talks
+=============
+
+-   "Is Less More? Characterizing resource trade-oﬀs for simple mobile robots
+    with embodied intelligence." Autonomy Talks, Institute for Dynamic Systems and
+    Control, ETH Zürich. 8 February 2021, recording available on ETH Zürich Frazzoli
+    YouTube Channel.
+-   "Is Less More? Characterizing Resource Trade-offs When Designing Robot-Boundary
+    Interactions." Cornell Robotics Seminar, 12 May 2020, talk given via Zoom.
+-   "Towards Self-Assembly and Collective Manipulation with Extremely
+    Underactuated Robots," NxR Group Meeting, Northwestern University. 1 March 2019.
+-   "Interesting Trajectories of Mobile Robots in Polygons," 2017 Midwest
+    Robotics Workshop (MWRW). May 18 2017.
+-   "New Developments in Combinatorial Data Structures and
+    Algorithms for Robotic Planning, Filtering and Design," UIUC Theory Seminar,
+    October 3 2016.
+-   "Case Studies in Robotics Toolchains," UIUC Robotics Seminar,
+    September 9 2016.
+
+
 AWARDS AND HONORS
 ======
 
--   Mentor Stipend ($800), Illinois Scholars Undergraduate Research Program \hfill 2019
--   Leung Student Venture Fund Award ($1000), UIUC ECE Department \hfill 2019
+-   Cornell Postdoc Leadership Program \hfill 2021-2022
+-   Mentor Stipend, Illinois Scholars Undergraduate Research Program \hfill 2019
+-   Leung Student Venture Fund Award, UIUC ECE Department \hfill 2019
 -   IEEE MRS (Multi-Robot Systems) Travel Grant \hfill 2019
 -   Workshop on Algorithmic Foundations of Robotics (WAFR) Robot Guru Travel Grant \hfill 2018
--   Saburo Muroga Endowed Fellowship ($5740), UIUC CS Department \hfill 2015-2016
+-   Saburo Muroga Endowed Fellowship, UIUC CS Department \hfill 2015-2016
 -   Physics Faculty Distinguished Graduate Award, CSM \hfill May 2015
 -   Leo Borasio Outstanding Junior Award, McBride Honors Program, CSM \hfill May 2014
 -   President’s Undergraduate Scholarship, CSM \hfill 2011-2015
@@ -133,46 +159,36 @@ TEACHING EXPERIENCE
 ===================
 
 
-### Teaching Assistant for Introduction to Robotics \hfill Fall 2019
+### Teaching Assistant, ECE 470: Introduction to Robotics \hfill Fall 2019
 
-- I was one of five teaching assistants for ECE 470:
-Introduction to Robotics, an upper level 90-student class with lecture
+- One of five TAs for an upper level 90-student class with lecture
 and lab components, covering topics such as state estimation and filtering, forward and
-inverse kinematics, motion planning and controls.
-- Supervised a 15-student lab section and gave two guest lectures for the full class.
+inverse kinematics, motion planning, control, and introductory computer vision.
+- Individually supervised a twice-weekly 15-student lab section, using Universal Robots UR3 robot
+arms and computer vision.
+- Gave two 75-minute guest lectures on inverse kinematics for the full ninety-student class.
 - Developed homework and test problems using the online learning platform PrairieLearn.
 
-### Research Mentoring
+### Mentees
 
-- [Oluwami Dosunmu-Ogunbi](https://wamiogunbi.com/)
-    - mentored 2015-2016, worked on CAD, microcontrollers, IMU data collection and analysis
-    - currently PhD student with Dr. Jessy Grizzle at University of Michigan
-- Michael Zeng
-    - collaborated on dynamical properties of bouncing robots in Fall 2016
-    - currently software engineer at Assembled
-- [Samara (Yingying) Ren](https://samararen.github.io/)
-    - co-author on one WAFR paper (and corresponding journal paper)
-    - currently PhD student at EPFL with Dr. Mark Pauly
-- [Justin Wasserman](https://jbwasse2.github.io/)
-    - supervised senior thesis on ``Controlling, Modeling, and Scaling
-      Underactuated, Non-deterministic Robot Structures"
-    - co-author on 2018 MRS paper
-    - currently PhD student at UIUC with Dr. Girish Chowdary
-- Austin Born, John Born, Chris Horn
-    - From 2017-2019 I supervised this group of students on the design and control of
-      weaselball-powered robot structures. Co-authors on 2018 MRS paper.
-    - Chris and John are still at UIUC and Austin is a software developer at
-      Omniex Holdings.
-- Chase Gladish
-    - supervised senior thesis on Improv, a live-coding platform for robot motion
+- Emily Hall and Max Altman (2019-2020)
+    - supervised on a funded undergraduate research project (a robotic pen),
+      assisted with project transition during onset of pandemic
+- Jordan Parker (2018)
+    - worked on Improv, connected her with a paid research position in the RAD Lab
+- Chase Gladish (2018)
+    - I supervised her senior thesis on Improv, a live-coding platform for robot motion
+- Samara (Yingying) Ren (2017-2020)
+    - co-author on one WAFR paper and IJRR paper, until she started a graduate degree at EPFL
     - co-author on 2018 MOCO paper
-    - currently a Senior Software Engineer at Mastery Logistics
-- Jordan Parker
-    - worked with Jordan in 2018 on Improv when she was a freshman
-    - connected Jordan with the RAD lab at UIUC where she continued robotics research
-- Emily Hall and Max Altman
-    - I supervised Emily and Max on their 2019-2020 ISUR undergraduate research project (a
-      robotic pen) while they were sophomores
+- Austin Born, John Born, Chris Horn, Justin Wasserman (2017-2019)
+    - supervised this team of undergraduates, including recieving a $1000
+      undergraduate research award, and publishing a 2018 MRS paper
+    - J. Wasserman wrote senior thesis on ``Controlling, Modeling, and Scaling Underactuated, Non-deterministic Robot Structures"
+- Michael Zeng (2016)
+    - 3rd year undergraduate: collaborated on dynamical properties of bouncing robots
+- Oluwami Dosunmu-Ogunbi (2015-2016)
+    - 4th year undergraduate: worked on CAD, microcontrollers, IMU data collection and analysis
    
 ### Colorado School of Mines Math Learning Center
 
@@ -188,14 +204,18 @@ Dates:
 Description:
 :   Developed, monitored, and troubleshot remote-controlled robotic physics,
     chemistry, and biology experiments for college students in online classes.
-    Served as a TA and equipment technician while classes were running.
+    Served as a TA and equipment technician while classes were running. This was
+    innovative distance learning research through the Department of Labor.
 
 Dates:
 :   Feb 2012 - May 2014
 
-PROFESSIONAL ACTIVITIES
+Professional Service
 =======================
 
+-   Head of student committee organizing an internal Robotics@UIUC seminar (Fall
+    2016).
+    - Recruited student speakers, advertised talks, maintained wiki.
 -   President of Computer Science Graduate Students Organization (2017 -
     2018).
     - Organized social events, communicated with department administration 
@@ -208,9 +228,8 @@ PROFESSIONAL ACTIVITIES
     - Recruited and communicated with speakers, helped develop materials (The
       Robot Design Game, \url{http://robot-design.org/}), facilitated workshop
       and discussions.
--   Head of student committee organizing an internal Robotics@UIUC seminar (Fall
-    2016).
-    - Recruited student speakers, advertised talks, maintained wiki.
+-   Co-organizer for 2021 ICRA full day workshop, "Compositional Robotics: Mathematics and
+    Tools." 31 May 2021.
 
 
 OUTREACH AND DIVERSITY SERVICE
@@ -270,9 +289,9 @@ Dates:
 REFERENCES
 ==========
 
-- Professor Steven M. Lavalle \newline
-\qquad Center for Ubiquitous Computing \newline
-\qquad University of Oulu, Oulu, Finland \newline
+- Professor Steven M. Lavalle  \newline
+\qquad Center for Ubiquitous Computing  \newline
+\qquad University of Oulu, Oulu, Finland  \newline
 \qquad steven.lavalle@oulu.fi \newline
 \qquad +358 294 482807
 
