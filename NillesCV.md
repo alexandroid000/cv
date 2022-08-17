@@ -39,6 +39,12 @@ Supervisor:
 :   Kirstin Petersen, [Collective Embodied Intelligence Lab](https://cei.ece.cornell.edu/)
 :   Electrical and Computer Engineering
 
+August - October 2022:
+:   I was honored to serve as interim Principal Investigator for the Collective
+Embodied Intelligence lab for three months as part of the NSF Career Life Balance
+program. Primary responsibilities included supervising four PhD students and
+running weekly group meetings.
+
 Education
 =========
 
@@ -172,15 +178,15 @@ arms and computer vision.
 ### Mentees
 
 - Emily Hall and Max Altman (2019-2020)
-    - supervised on a funded undergraduate research project (a robotic pen),
+    - 4th year undergraduates: supervised on a funded undergraduate research project (a robotic pen),
       assisted with project transition during onset of pandemic
 - Jordan Parker (2018)
-    - worked on Improv, connected her with a paid research position in the RAD Lab
+    - 1st year undergraduate: worked on Improv, connected her with a paid research position in the RAD Lab
 - Chase Gladish (2018)
-    - I supervised her senior thesis on Improv, a live-coding platform for robot motion
-- Samara (Yingying) Ren (2017-2020)
-    - co-author on one WAFR paper and IJRR paper, until she started a graduate degree at EPFL
+    - 4th year undergraduate: I supervised her senior thesis on Improv, a live-coding platform for robot motion
     - co-author on 2018 MOCO paper
+- Samara (Yingying) Ren (2017-2020)
+    - undergraduate: co-author on one WAFR paper and IJRR paper, until she started a graduate degree at EPFL
 - Austin Born, John Born, Chris Horn, Justin Wasserman (2017-2019)
     - supervised this team of undergraduates, including recieving a $1000
       undergraduate research award, and publishing a 2018 MRS paper
@@ -228,21 +234,22 @@ Professional Service
     - Recruited and communicated with speakers, helped develop materials (The
       Robot Design Game, \url{http://robot-design.org/}), facilitated workshop
       and discussions.
--   Co-organizer for 2021 ICRA full day workshop, "Compositional Robotics: Mathematics and
-    Tools." 31 May 2021.
+-   Co-organizer for ICRA full day workshop, "Compositional Robotics: Mathematics and
+    Tools," held virtually in 2021 and hybrid in 2022.
+-   Co-organizer for ICRA full day workshop, "Robotics and Art:
+    Automating Expressions," hybrid workshop, 2022.
 
 
 OUTREACH AND DIVERSITY SERVICE
 =======
 
 -   2019-2020: Mentor for Illinois Scholars Undergraduate Research (ISUR)
-    Program. Supervised two URM undergraduate students building a robotic pen.
+    Program. Supervised two URM undergraduate students in robotics research.
 -   2019: WAFR Robot Guru Mentor - six month remote mentorship of undergraduates
-interested in robotics research
+    interested in robotics research
 -   2014: Founding member of Equality Through Awareness (ETA) at CSM, a group promoting
     diversity in STEM through discussion, mentoring, and invited speakers.
-    - facilitated weekly group discussions on articles and topics
-      relevant to underrepresented minorities
+    - I facilitated weekly group discussions on articles relevant to underrepresented minorities
     - In 2018, ETA was awarded the Martin Luther King Jr. Recognition Award from CSM
 -   2012-2015: Society of Physics Students - participated in outreach events such as
     interactive physics demonstrations at local elementary and middle schools.
