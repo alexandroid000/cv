@@ -41,7 +41,7 @@ Supervisor:
 
 August - October 2022:
 :   I was honored to serve as interim Principal Investigator for the Collective
-Embodied Intelligence lab for three months as part of the NSF Career Life Balance
+Embodied Intelligence lab as part of the NSF Career Life Balance
 program. Primary responsibilities included supervising four PhD students and
 running weekly group meetings.
 
@@ -302,18 +302,6 @@ REFERENCES
 \qquad steven.lavalle@oulu.fi \newline
 \qquad +358 294 482807
 
-- Professor Amy LaViers \newline
-\qquad Department of Mechanical Science and Engineering \newline
-\qquad University of Illinois at Urbana-Champaign, USA \newline
-\qquad alaviers@illinois.edu
-
-- Professor Todd Murphey \newline
-\qquad Department of Mechanical Engineering \newline
-\qquad Center for Robotics and Biosystems \newline
-\qquad Northwestern University, Evanston, Illinois, USA \newline
-\qquad t-murphey@northwestern.edu \newline
-\qquad (847) 467 1041
-
 - Professor Nancy Amato \newline
 \qquad Department of Computer Science \newline
 \qquad University of Illinois at Urbana-Champaign, USA \newline
@@ -328,3 +316,7 @@ REFERENCES
 \qquad mitras@illinois.edu \newline
 \qquad (217) 333 7824
 
+- Professor Kirstin H. Petersen \newline
+- \qquad Electrical and Computer Engineering, College of Engineering \newline
+- Cornell University, Ithaca, New York, USA
+- kirstin@cornell.edu

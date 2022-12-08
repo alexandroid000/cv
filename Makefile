@@ -15,7 +15,9 @@ all: \
 	
 NillesCV.pdf: NillesCV.tex
 	pdflatex NillesCV.tex
-
-%.pdf: %.md
-	pandoc --data-dir=/home/alli/common --filter=pandoc-citeproc --from=markdown --to=latex	-o $@ $<
 	
+%.pdf: %.tex
+	pdflatex $<
+
+#%.pdf: %.md
+#	pandoc --data-dir=/home/alli/common --filter=pandoc-citeproc --from=markdown --to=latex	-o $@ $<
