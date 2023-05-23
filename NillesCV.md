@@ -28,7 +28,7 @@ header-includes:
 
 
 
-Current Position
+CURRENT POSITION
 =========
 
 Postdoctoral Associate, Cornell University \hfill {\footnotesize 2021 - present}
@@ -37,15 +37,17 @@ Postdoctoral Associate, Cornell University \hfill {\footnotesize 2021 - present}
 
 Supervisor:
 :   Kirstin Petersen, [Collective Embodied Intelligence Lab](https://cei.ece.cornell.edu/)
+
+Department:
 :   Electrical and Computer Engineering
 
-August - October 2022:
+Interim PI:
 :   I was honored to serve as interim Principal Investigator for the Collective
 Embodied Intelligence lab as part of the NSF Career Life Balance
-program. Primary responsibilities included supervising four PhD students and
-running weekly group meetings.
+program, from August through October 2022. Primary responsibilities included
+supervising research progress of four PhD students and planning weekly group meetings.
 
-Education
+EDUCATION
 =========
 
 University of Illinois at Urbana-Champaign (UIUC) \hfill {\footnotesize 2015 - 2020}
@@ -56,7 +58,7 @@ Degree:
 
 Thesis Title:
 :   *Designing Boundary Interactions for Simple Mobile Robots*
-    
+
 Committee:
 :   [Steven M. LaValle](http://lavalle.pl/) (advisor), Nancy Amato, Sayan Mitra,
     Todd Murphey (Northwestern University)
@@ -69,7 +71,7 @@ Degree:
 :   Minor in Computational and Applied Mathematics
 :   Minor in Public Affairs, McBride Honors Program
 
-Publications
+PUBLICATIONS
 ============
 
 Journal Articles
@@ -86,6 +88,10 @@ Journal Articles
 Conference Articles
 -------------------
 
+3.  J. A. Defay, **A. Nilles**, and K. Petersen.
+    "Characterization of the Design Space of Collective Braitenberg Vehicles," 
+    in the *16th International Symposium on Distributed Autonomous Robotic
+    Systems (DARS)*, 2022.
 3.  **A. Nilles**, S. Ceron, N. Napp, and K. Petersen.
     "Strain-Based Consensus in Soft, Inflatable Robots," in the *IEEE 5th
     International Conference on Soft Robotics (RoboSoft)*, 2022.
@@ -113,23 +119,30 @@ Conference Articles
 Workshop and Poster Presentations
 ---------------------------------
 
--   A. Q. Nilles, S. M. LaValle. "Robust Combinatorial Planning over Simple
+-   A. Nilles, K. Petersen. "Design of Scalable, Robust Robotic Collectives with 
+    Embodied and Stigmergic Coordination," in *Collective Intelligence:
+    Foundations + Radical Ideas Symposium & Short Course* at the Santa Fe Institute, June 2023.
+-   A. Nilles, S. M. LaValle. "Robust Combinatorial Planning over Simple
     Boundary Interactions," in *Workshop on Robust Task & Motion Planning* at RSS 2019.
--   A. Q. Nilles, D. A. Shell, J. M. O'Kane. "Robot Design: Formalisms,
+-   A. Nilles, D. A. Shell, J. M. O'Kane. "Robot Design: Formalisms,
     Representations, and the Role of the Designer," in *Workshop on the
     Autonomous Design of Robots* at ICRA 2018.
--   A. Q. Nilles, I. Becerra, and S. M. LaValle. "Controllable Billiards: Characterizing the Paths of Simple Mobile Robots,"
+-   A. Nilles, I. Becerra, and S. M. LaValle. "Controllable Billiards: Characterizing the Paths of Simple Mobile Robots,"
     poster in *Dynamics Days*, 2018.
--   A. Q. Nilles, “Partially Coherent Transport: Computational Analysis and
+-   A. Nilles, “Partially Coherent Transport: Computational Analysis and
     Overcoming Anderson Localization," 2014 CSM Physics poster session.
--   A. Q. Nilles, "Teaching the Smart Grid: Why Data Management is Essential to
-    the Future of Electricity," [WISE Journal of Engineering and Public
-    Policy.](http://www.wise-intern.org/journal/2013/documents/NillesFinalpaper.pdf)
+-   A. Nilles, "Teaching the Smart Grid: Why Data Management is Essential to
+    the Future of Electricity," Washington Internships for Students of Engineering
+    Journal of Engineering and Public Policy.
 
 
-Invited Talks
+INVITED TALKS
 =============
 
+-   "Agent-Environment Interactions for Uncertainty Reduction and
+    Communication", Microsoft Future Leaders in Robotics and AI: Celebrating
+    Diversity and Innovation Seminar Series, Maryland Robotics Center, University of Maryland, 
+    24 February 2023, recording available on MRC YouTube Channel.
 -   "Is Less More? Characterizing resource trade-oﬀs for simple mobile robots
     with embodied intelligence." Autonomy Talks, Institute for Dynamic Systems and
     Control, ETH Zürich. 8 February 2021, recording available on ETH Zürich Frazzoli
@@ -150,6 +163,8 @@ Invited Talks
 AWARDS AND HONORS
 ======
 
+-   Cyber-Physical Systems Rising Star (34 selected of 117 applicants) \hfill 2023
+-   Microsoft Future Leader in Robotics and AI, Maryland Robotics Center \hfill 2023
 -   Cornell Postdoc Leadership Program \hfill 2021-2022
 -   Mentor Stipend, Illinois Scholars Undergraduate Research Program \hfill 2019
 -   Leung Student Venture Fund Award, UIUC ECE Department \hfill 2019
@@ -164,38 +179,14 @@ AWARDS AND HONORS
 TEACHING EXPERIENCE
 ===================
 
+### UIUC Teaching Assistant \hfill July-December 2019
 
-### Teaching Assistant, ECE 470: Introduction to Robotics \hfill Fall 2019
-
-- One of five TAs for an upper level 90-student class with lecture
-and lab components, covering topics such as state estimation and filtering, forward and
-inverse kinematics, motion planning, control, and introductory computer vision.
-- Individually supervised a twice-weekly 15-student lab section, using Universal Robots UR3 robot
-arms and computer vision.
+- One of five TAs for **ECE 470: Introduction to Robotics** (90 students)
+- Class topics included state estimation and filtering, forward and inverse kinematics, motion planning, control, and introductory computer vision.
+- Individually supervised a twice-weekly 15-student lab section, using Universal Robots UR3 robot arms and computer vision.
 - Gave two 75-minute guest lectures on inverse kinematics for the full ninety-student class.
 - Developed homework and test problems using the online learning platform PrairieLearn.
 
-### Mentees
-
-- Emily Hall and Max Altman (2019-2020)
-    - 4th year undergraduates: supervised on a funded undergraduate research project (a robotic pen),
-      assisted with project transition during onset of pandemic
-- Jordan Parker (2018)
-    - 1st year undergraduate: worked on Improv, connected her with a paid research position in the RAD Lab
-- Chase Gladish (2018)
-    - 4th year undergraduate: I supervised her senior thesis on Improv, a live-coding platform for robot motion
-    - co-author on 2018 MOCO paper
-- Samara (Yingying) Ren (2017-2020)
-    - undergraduate: co-author on one WAFR paper and IJRR paper, until she started a graduate degree at EPFL
-- Austin Born, John Born, Chris Horn, Justin Wasserman (2017-2019)
-    - supervised this team of undergraduates, including recieving a $1000
-      undergraduate research award, and publishing a 2018 MRS paper
-    - J. Wasserman wrote senior thesis on ``Controlling, Modeling, and Scaling Underactuated, Non-deterministic Robot Structures"
-- Michael Zeng (2016)
-    - 3rd year undergraduate: collaborated on dynamical properties of bouncing robots
-- Oluwami Dosunmu-Ogunbi (2015-2016)
-    - 4th year undergraduate: worked on CAD, microcontrollers, IMU data collection and analysis
-   
 ### Colorado School of Mines Math Learning Center
 
 Description:
@@ -211,33 +202,24 @@ Description:
 :   Developed, monitored, and troubleshot remote-controlled robotic physics,
     chemistry, and biology experiments for college students in online classes.
     Served as a TA and equipment technician while classes were running. This was
-    innovative distance learning research through the Department of Labor.
+    innovative distance learning research funded through the Department of Labor.
 
 Dates:
 :   Feb 2012 - May 2014
 
-Professional Service
+PROFESSIONAL SERVICE
 =======================
 
--   Head of student committee organizing an internal Robotics@UIUC seminar (Fall
-    2016).
-    - Recruited student speakers, advertised talks, maintained wiki.
--   President of Computer Science Graduate Students Organization (2017 -
-    2018).
-    - Organized social events, communicated with department administration 
-    about graduate student needs, assisted in organizing annual prospective PhD
-    student visit weekend.
--   Reviewer for IROS '17, '18, '19, '20; ICRA '18, '19, '20; EAAI '17; CGTA '19
--   Program Committee Member for MRS '19
--   Co-organizer for 2017 Robotic Science and Systems (RSS) full day workshop,
-    "Minimality and Trade-offs in Automated Robot Design." July 16 2017.
-    - Recruited and communicated with speakers, helped develop materials (The
-      Robot Design Game, \url{http://robot-design.org/}), facilitated workshop
-      and discussions.
--   Co-organizer for ICRA full day workshop, "Compositional Robotics: Mathematics and
-    Tools," held virtually in 2021 and hybrid in 2022.
--   Co-organizer for ICRA full day workshop, "Robotics and Art:
-    Automating Expressions," hybrid workshop, 2022.
+-   Reviewer for IROS, ICRA, CGTA, RA-L, T-RO, MRS, Nature Communications
+-   Publication Chair for DARS 2024
+-   Co-organizer for ICRA full day workshop, "Compositional Robotics: Mathematics and Tools," held virtually in 2021, hybrid in 2022 and 2023.
+-   Co-organizer for ICRA full day workshop, "Robotics and Art: Automating Expressions," hybrid workshop, 2022.
+-   Co-organizer for Robotic Science and Systems (RSS) full day workshop, "Minimality and Trade-offs in Automated Robot Design." July 16 2017.
+    - Recruited and communicated with speakers, helped develop The Robot Design Game, facilitated workshop and discussions.
+-   President of Computer Science Graduate Students Organization (2017 - 2018), member 2015 - 2020.
+    - Organized social events, discussed and advocated for graduate student needs, planned logistics and cultural events for annual prospective PhD student visit weekend.
+-   Head of student committee organizing an semester-long internal Robotics@UIUC seminar (Fall 2016).
+    - Recruited student speakers, advertised weekly talks, maintained wiki.
 
 
 OUTREACH AND DIVERSITY SERVICE
@@ -248,10 +230,10 @@ OUTREACH AND DIVERSITY SERVICE
 -   2019: WAFR Robot Guru Mentor - six month remote mentorship of undergraduates
     interested in robotics research
 -   2014: Founding member of Equality Through Awareness (ETA) at CSM, a group promoting
-    diversity in STEM through discussion, mentoring, and invited speakers.
-    - I facilitated weekly group discussions on articles relevant to underrepresented minorities
+    student well-being and diversity in STEM through discussion, mentoring, and invited speakers.
+    - I facilitated weekly group reading club discussions on understanding issues faced by underrepresented groups in STEM
     - In 2018, ETA was awarded the Martin Luther King Jr. Recognition Award from CSM
--   2012-2015: Society of Physics Students - participated in outreach events such as
+-   2012-2015: Society of Physics Students, CSM - participated in outreach events such as
     interactive physics demonstrations at local elementary and middle schools.
 
 OTHER EMPLOYMENT
@@ -285,13 +267,41 @@ Dates:
 ### Institute of Electrical and Electronics Engineers (IEEE)
 
 Description:
-:   Washington Internships for Students of
-    Engineering (WISE) program: researched smart grid data management and policy alternatives; published an
-    overview and policy recommendation in the *WISE Journal of Engineering and
-    Public Policy*. 
+:   Washington Internships for Students of Engineering (WISE) program: researched smart grid data management and policy alternatives; published an
+    overview and policy recommendation.
 
 Dates:
 :   June - Aug 2013
+
+
+MENTORING
+=========
+
+- Elizabeth Garner (2021-2023)
+    - undergraduate, assisted 
+- Steven Ceron (2021)
+    - Ph.D. student, I advised on signal processing and algorithmic approach to FoamBot platform
+- Emily Hall and Max Altman (2019-2020)
+    - 4th year undergraduates: I supervised on a funded undergraduate research project (a robotic pen), assisted with project transition during onset of pandemic
+- Jordan Parker (2018)
+    - 1st year undergraduate, she developed Improv features and trained on user study
+    - connected with a paid research position in the RAD Lab
+- Chase Gladish (2018)
+    - 4th year undergraduate: I supervised her senior thesis on Improv, a live-coding platform for robot motion
+    - co-author on 2018 MOCO paper
+- Samara (Yingying) Ren (2017-2020)
+    - undergraduate: co-author on one WAFR paper and IJRR paper, until she started a graduate degree at EPFL
+- Austin Born, John Born, Chris Horn, Justin Wasserman (2017-2019)
+    - supervised team of undergraduates, recieved $1000 undergraduate research award from ECE department
+    - published 2018 MRS paper
+    - J. Wasserman wrote senior thesis on ``Controlling, Modeling, and Scaling Underactuated, Non-deterministic Robot Structures"
+- Michael Zeng (2016)
+    - 3rd year undergraduate: collaborated on dynamical properties of bouncing robots
+- Oluwami Dosunmu-Ogunbi (2015-2016)
+    - 4th year undergraduate: worked on CAD, microcontrollers, IMU data collection and analysis
+    - Advised on graduate school applications resulting in a Ph.D. appointment with Jessy Grizzle at University of Maryland.
+
+
 
 REFERENCES
 ==========
@@ -302,11 +312,15 @@ REFERENCES
 \qquad steven.lavalle@oulu.fi \newline
 \qquad +358 294 482807
 
-- Professor Nancy Amato \newline
-\qquad Department of Computer Science \newline
-\qquad University of Illinois at Urbana-Champaign, USA \newline
-\qquad namato@illinois.edu \newline
-\qquad (217) 333 3426
+- Professor Kirstin H. Petersen \newline
+\qquad Electrical and Computer Engineering, College of Engineering \newline
+\qquad Cornell University, Ithaca, New York, USA \newline
+\qquad kirstin@cornell.edu
+
+- Amy LaViers \newline
+\qquad The Robotics, Automation and Dance Lab \newline
+\qquad amy@theradlab.xyz \newline
+\qquad https://theradlab.xyz
 
 - Professor Sayan Mitra \newline
 \qquad Department of Electrical and Computer Engineering \newline
@@ -316,7 +330,9 @@ REFERENCES
 \qquad mitras@illinois.edu \newline
 \qquad (217) 333 7824
 
-- Professor Kirstin H. Petersen \newline
-- \qquad Electrical and Computer Engineering, College of Engineering \newline
-- Cornell University, Ithaca, New York, USA
-- kirstin@cornell.edu
+- Professor Nancy Amato \newline
+\qquad Department of Computer Science \newline
+\qquad University of Illinois at Urbana-Champaign, USA \newline
+\qquad namato@illinois.edu \newline
+\qquad (217) 333 3426
+
